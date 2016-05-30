@@ -1,0 +1,38 @@
+Ext.define('Klickakart.klickakart.shared.com.shop.model.shoppingcontext.retail.OrderMainModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "orderId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "orderDate",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "userid",
+          "reference": "User",
+          "defaultValue": ""
+     }, {
+          "name": "grandTotal",
+          "type": "number",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "OrderDetail",
+          "reference": "OrderDetailModel"
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

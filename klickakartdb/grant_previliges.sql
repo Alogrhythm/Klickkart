@@ -1,0 +1,2 @@
+
+GRANT ALL PRIVILEGES  ON klickkart.* TO 'shopdb'@'%' IDENTIFIED BY 'shopdb' WITH GRANT OPTION

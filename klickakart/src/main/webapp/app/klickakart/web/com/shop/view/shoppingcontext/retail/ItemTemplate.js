@@ -1,0 +1,90 @@
+Ext.define('Klickakart.klickakart.web.com.shop.view.shoppingcontext.retail.ItemTemplate', {
+     "xtype": "itemTemplate",
+     "items": [{
+          "xtype": "panel",
+          "items": [{
+               "xtype": "textfield",
+               "fieldLabel": "Product",
+               "margin": 5,
+               "bindable": "productDesc",
+               "name": "productDesc",
+               "itemId": "productDesc_textfield",
+               "readOnly": true,
+               "labelAlign": "right"
+          }, {
+               "xtype": "textfield",
+               "fieldLabel": "Item",
+               "margin": 5,
+               "bindable": "itemName",
+               "name": "itemName",
+               "itemId": "itemName_textfield",
+               "labelAlign": "right",
+               "readOnly": true
+          }, {
+               "xtype": "image",
+               "name": "itemImg",
+               "height": 300,
+               "width": 250,
+               "border": true,
+               "margin": 5,
+               "bindable": "itemImg",
+               "itemId": "itemImg_image",
+               "bindSrc": "itemImg",
+               "bind": {
+                    "src": "{itemImg}"
+               }
+          }, {
+               "xtype": "numberfield",
+               "fieldLabel": "Price",
+               "name": "itemPrice",
+               "margin": 5,
+               "bindable": "itemPrice",
+               "itemId": "itemPrice_numberfield",
+               "readOnly": true
+          }, {
+               "xtype": "numberfield",
+               "fieldLabel": "Quantity",
+               "name": "qty",
+               "margin": 5,
+               "bindable": "qty",
+               "text": "Quantity",
+               "fieldName": "qty",
+               "displayName": "Quantity",
+               "widget": "numberfield",
+               "min": "0",
+               "max": "999999999",
+               "isField": true,
+               "itemId": "qty_numberfield"
+          }, {
+               "xtype": "hiddenfield",
+               "fieldLabel": "ItemID",
+               "bindable": "itemId",
+               "margin": 5,
+               "name": "itemId",
+               "itemId": "itemId_hiddenfield"
+          }, {
+               "xtype": "button",
+               "name": "addToCart",
+               "text": "Add To Cart",
+               "margin": 5,
+               "itemId": "addToCart_button",
+               "listeners": {
+                    "click": "onAddToCartClick"
+               }
+          }],
+          "margin": 5,
+          "border": true,
+          "autoScroll": true,
+          "itemId": "panel_ext_17170",
+          "dockedItems": []
+     }],
+     "border": true,
+     "autoScroll": true,
+     "margin": 5,
+     "itemId": "form_ext_17161",
+     "dockedItems": [],
+     "extend": "Ext.form.Panel",
+     "requires": ["Klickakart.klickakart.web.com.shop.controller.shoppingcontext.retail.ItemTemplateController", "Klickakart.klickakart.shared.com.shop.viewmodel.shoppingcontext.retail.ItemTemplateViewModel", "Klickakart.klickakart.shared.com.shop.model.shoppingcontext.retail.ItemTemplateModel"],
+     "viewModel": "ItemTemplateViewModel",
+     "controller": "ItemTemplateController"
+});
