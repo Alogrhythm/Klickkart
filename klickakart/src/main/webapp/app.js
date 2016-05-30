@@ -8,7 +8,7 @@ Ext.application({
 
     extend: 'Klickakart.Application',
     
-/**AppPathDetails**/autoCreateViewport:"Klickakart.view.desktop.design.menubar.main.MainPanel",
+/**AppPathDetails**/autoCreateViewport:"Klickakart.view.desktop.design.drawer.main.MainPanel",
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to Klickakart.Application. If you need to

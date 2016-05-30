@@ -5,7 +5,7 @@ import com.shop.app.config.annotation.SourceCodeAuthorClass;
 import java.util.List;
 import com.shop.app.shared.shoppingcontext.retail.OrderDetail;
 
-@SourceCodeAuthorClass(createdBy = "john.doe", updatedBy = "john.doe", versionNumber = "4", comments = "Repository for OrderMain Transaction table", complexity = Complexity.MEDIUM)
+@SourceCodeAuthorClass(createdBy = "john.doe", updatedBy = "john.doe", versionNumber = "12", comments = "Repository for OrderMain Transaction table", complexity = Complexity.MEDIUM)
 public interface OrderMainRepository<T> extends SearchInterface {
 
     public List<T> findAll() throws Exception;

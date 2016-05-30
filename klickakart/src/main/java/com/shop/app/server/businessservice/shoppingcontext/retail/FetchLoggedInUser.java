@@ -3,7 +3,7 @@ import com.athena.server.pluggable.utils.helper.RuntimeLogInfoHelper;
 import com.shop.app.server.businessservice.shoppingcontext.FetchLoggedInUserBzService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import java.util.List;
+import com.spartan.pluggable.exception.layers.ds.BusinessRuleUnableToProceedException;
 
 @Component
 public class FetchLoggedInUser {
@@ -14,8 +14,11 @@ public class FetchLoggedInUser {
     @Autowired
     private FetchLoggedInUserBzService fetchLoggedInUserBzService;
 
-    public List<com.shop.app.shared.shoppingcontext.FetchLoggedInUser> fetchLoggedInUser() throws Exception {
+    public com.shop.app.shared.shoppingcontext.FetchLoggedInUser fetchLoggedInUser() throws BusinessRuleUnableToProceedException, Exception {
         java.util.List<com.shop.app.shared.shoppingcontext.FetchLoggedInUser> fetchLoggedInUserList = fetchLoggedInUserBzService.executeQueryFetchLoggedInUser();
-        return fetchLoggedInUserList;
+        for (com.shop.app.shared.shoppingcontext.FetchLoggedInUser fetchLoggedInUserListElement : fetchLoggedInUserList) {
+            return fetchLoggedInUserListElement;
+        }
+        throw new com.spartan.pluggable.exception.layers.ds.BusinessRuleUnableToProceedException();
     }
 }

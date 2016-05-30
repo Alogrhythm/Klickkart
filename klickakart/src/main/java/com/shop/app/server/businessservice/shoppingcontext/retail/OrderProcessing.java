@@ -41,7 +41,7 @@ public class OrderProcessing {
             throw new com.spartan.pluggable.exception.layers.ds.SessionDataNotFoundException();
         }
         if (orderProcess != null) {
-            if (orderProcess.getCreditCardNo() == null) {
+            if (orderProcess.getCreditCardNo().equals("")) {
                 throw new com.shop.app.customexceptions.InvalidCreditCard("Invalid Credit Card", "SHPRT232102400", null);
             }
             com.shop.app.shared.shoppingcontext.retail.TransactionResponse transactionresponse = orderProcessServiceImpl.processOrder(orderProcess);

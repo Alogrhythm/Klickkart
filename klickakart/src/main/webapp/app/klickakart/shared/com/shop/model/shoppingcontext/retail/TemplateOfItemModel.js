@@ -1,4 +1,32 @@
 Ext.define('Klickakart.klickakart.shared.com.shop.model.shoppingcontext.retail.TemplateOfItemModel', {
      "extend": "Ext.data.Model",
-     "fields": []
+     "fields": [{
+          "name": "productDesc",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "itemName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "itemImg",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "itemId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "itemPrice",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "qty",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "addToCart",
+          "type": "auto",
+          "defaultValue": ""
+     }]
 });

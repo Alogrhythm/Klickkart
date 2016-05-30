@@ -23,15 +23,15 @@ Ext.define('Klickakart.klickakart.web.com.shop.view.shoppingcontext.retail.ItemC
           },
           "padding": 0,
           "margin": 5,
-          "itemId": "item_listViewBaseView",
-          "dockedItems": []
+          "dockedItems": [],
+          "itemId": "item_listViewBaseView"
      }],
      "border": true,
      "autoScroll": true,
      "title": "Item Catelogue",
      "margin": 5,
-     "itemId": "itemcat_itemCatelogue",
      "dockedItems": [],
+     "itemId": "itemcat_itemCatelogue",
      "requires": ["Klickakart.klickakart.web.com.shop.view.shoppingcontext.retail.ItemTemplate", "Klickakart.klickakart.web.com.shop.controller.shoppingcontext.retail.ItemCatelogueController", "Klickakart.klickakart.shared.com.shop.viewmodel.shoppingcontext.retail.ItemCatelogueViewModel", "Klickakart.klickakart.shared.com.shop.model.shoppingcontext.retail.ItemCatelogueModel", "Klickakart.view.fw.component.ListViewBaseView"],
      "extend": "Ext.form.Panel",
      "viewModel": "ItemCatelogueViewModel",

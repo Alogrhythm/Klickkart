@@ -239,10 +239,10 @@ Ext.define('Klickakart.klickakart.smartdevice.com.shop.view.shoppingcontext.reta
           "xtype": "displayfield",
           "fieldLabel": "<b>Order Total <\/b>",
           "margin": 5,
-          "bindable": "orderTotal",
+          "bindable": "cartSubtotal",
           "style": "word-break: break-word; word-wrap: break-word;",
-          "name": "orderTotal",
-          "itemId": "orderTotal_displayfield"
+          "name": "cartSubtotal",
+          "itemId": "cartSubtotal_displayfield"
      }],
      "border": true,
      "autoScroll": true,

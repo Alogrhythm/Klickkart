@@ -9,7 +9,7 @@ Ext.define('Klickakart.klickakart.shared.com.shop.model.shoppingcontext.retail.O
           "type": "auto",
           "defaultValue": ""
      }, {
-          "name": "orderTotal",
+          "name": "cartSubtotal",
           "type": "string",
           "defaultValue": ""
      }]

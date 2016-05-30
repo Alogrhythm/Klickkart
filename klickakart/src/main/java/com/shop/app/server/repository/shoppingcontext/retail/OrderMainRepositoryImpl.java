@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.shop.app.shared.shoppingcontext.retail.OrderDetail;
 
 @Repository
-@SourceCodeAuthorClass(createdBy = "john.doe", updatedBy = "john.doe", versionNumber = "4", comments = "Repository for OrderMain Transaction table", complexity = Complexity.MEDIUM)
+@SourceCodeAuthorClass(createdBy = "john.doe", updatedBy = "john.doe", versionNumber = "12", comments = "Repository for OrderMain Transaction table", complexity = Complexity.MEDIUM)
 public class OrderMainRepositoryImpl extends SearchInterfaceImpl implements OrderMainRepository<OrderMain> {
 
     @Autowired

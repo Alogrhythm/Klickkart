@@ -29,8 +29,8 @@ Ext.define('Klickakart.klickakart.smartdevice.com.shop.controller.shoppingcontex
           }, scope);
      },
      onItemsClick: function(me, e, eOpts) {
-          var formComponent = new Ext.create('Klickakart.klickakart.smartdevice.com.shop.view.shoppingcontext.retail.ItemCatelogueee');
-          formComponent.title = 'ItemCatelogueee';
+          var formComponent = new Ext.create('Klickakart.klickakart.smartdevice.com.shop.view.shoppingcontext.retail.ProductCatelogue');
+          formComponent.title = 'ProductCatelogue';
           var tabs = Ext.getCmp('appMainTabPanel');
           tabs.remove(this.getView());
           tabs.add(formComponent);

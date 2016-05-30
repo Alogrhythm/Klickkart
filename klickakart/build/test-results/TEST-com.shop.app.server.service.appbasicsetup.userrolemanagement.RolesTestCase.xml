@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-30T08:00:20" hostname="ca7bfcc7a5ae" time="0.42">
+<testsuite name="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-30T15:59:54" hostname="7d6391b444da" time="0.374">
   <properties/>
-  <testcase name="test1Save" classname="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.242"/>
-  <testcase name="test2Update" classname="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.055"/>
-  <testcase name="test3FindById" classname="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.009"/>
-  <testcase name="test5NegativeTesting" classname="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.017"/>
-  <testcase name="test6Delete" classname="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.096"/>
-  <system-out><![CDATA[Mon May 30 08:00:20 UTC 2016|Log Manager Factory|Initialization Process started.....
-Mon May 30 08:00:20 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
-Mon May 30 08:00:20 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
-Mon May 30 08:00:20 UTC 2016|Alarm Manager|Loading Alarms ......
-Mon May 30 08:00:20 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
-Mon May 30 08:00:20 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
-Mon May 30 08:00:20 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/564 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP= A.Map=[645]  E.Map EC/RC=[237/66] )
-Mon May 30 08:00:20 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
-Mon May 30 08:00:20 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
-Mon May 30 08:00:20 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
-Mon May 30 08:00:20 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
-Mon May 30 08:00:20 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
-Mon May 30 08:00:20 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
-Mon May 30 08:00:20 UTC 2016|Alarm Manager|Initialized Exception Lookup...
-Mon May 30 08:00:20 UTC 2016|Log Manager|Initialize Log Config File ......
-Mon May 30 08:00:20 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
-Mon May 30 08:00:20 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
-Mon May 30 08:00:20 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
-Mon May 30 08:00:20 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
-Mon May 30 08:00:20 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
-Mon May 30 08:00:20 UTC 2016|Log Manager|Loading Default Connector for Logging ......
-Mon May 30 08:00:20 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
-Mon May 30 08:00:20 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
-Mon May 30 08:00:20 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@5828ee6e] ....
-Mon May 30 08:00:20 UTC 2016|Scheduler|Starting the Scheduler ......
-Mon May 30 08:00:20 UTC 2016|Scheduler|Adding [LMID=[38997cfc-9414-4290-8f90-256e7ae169e6]] Delay=5 Time Unit=MINUTES
-Mon May 30 08:00:20 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
-Mon May 30 08:00:20 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
-Mon May 30 08:00:20 UTC 2016|Scheduler|Startup Completed..
-Mon May 30 08:00:20 UTC 2016|Log Manager|Initialization Process Complete ......
-Mon May 30 08:00:20 UTC 2016|Log Manager Factory|Log Manager READY! ID = 38997cfc-9414-4290-8f90-256e7ae169e6
-[EL Fine]: sql: 2016-05-30 08:00:20.724--ClientSession(434149063)--Connection(867983565)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppMenus_M (menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [D564EFFC-B632-4C0F-862E-255EBD6DD1FF, h3yPgoINAvOyPcnDTPctby2XKnTaoi2zb1ii2A5UlYToppl5Lc, 1, true, 8, 1TwFOgVc0ux7W3WSU0CSLL4LOxCSo5MDWafqDy3tYlFTWuO7LE, vReXr9nvLPzzxhkDTQDRdrnJZR4jNK2NUesmGfN5jcXMDnnLCR, true, true, BxTzZ6Q42wvJ0hnPacgLh33o72QK6fz08IKmXqCLk1ycgCVv2y, boOrBLhHJ5kVReSgdvKaPZO3gTrKalcZOuQtYK9YrVUTevv1nq, Fqv13M5sq1khGIvRDDcGLC4uuoeJNlaoiRw7yb7xUX4g117mQs, yAT5G0zNfa2R6jNSheE9UNd1hpvILPFXrTK1BqBWz1JOcBvPbC, GRv, 1, AAAAA, 2016-05-30 08:00:20.72, AAAAA, 2016-05-30 08:00:20.72, 1, 51000]
+  <testcase name="test1Save" classname="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.152"/>
+  <testcase name="test2Update" classname="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.067"/>
+  <testcase name="test3FindById" classname="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.013"/>
+  <testcase name="test5NegativeTesting" classname="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.021"/>
+  <testcase name="test6Delete" classname="com.shop.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.121"/>
+  <system-out><![CDATA[Mon May 30 15:59:54 UTC 2016|Log Manager Factory|Initialization Process started.....
+Mon May 30 15:59:54 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
+Mon May 30 15:59:54 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
+Mon May 30 15:59:54 UTC 2016|Alarm Manager|Loading Alarms ......
+Mon May 30 15:59:54 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Mon May 30 15:59:54 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Mon May 30 15:59:54 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/564 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP= A.Map=[645]  E.Map EC/RC=[237/66] )
+Mon May 30 15:59:54 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Mon May 30 15:59:54 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Mon May 30 15:59:54 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
+Mon May 30 15:59:54 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
+Mon May 30 15:59:54 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Mon May 30 15:59:54 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
+Mon May 30 15:59:54 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Mon May 30 15:59:54 UTC 2016|Log Manager|Initialize Log Config File ......
+Mon May 30 15:59:54 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Mon May 30 15:59:54 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Mon May 30 15:59:54 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Mon May 30 15:59:54 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Mon May 30 15:59:54 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Mon May 30 15:59:54 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Mon May 30 15:59:54 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Mon May 30 15:59:54 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Mon May 30 15:59:54 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@6ec923c4] ....
+Mon May 30 15:59:54 UTC 2016|Scheduler|Starting the Scheduler ......
+Mon May 30 15:59:54 UTC 2016|Scheduler|Adding [LMID=[f5459b1b-8311-4caf-b6f8-d0ed61511a9a]] Delay=5 Time Unit=MINUTES
+Mon May 30 15:59:54 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Mon May 30 15:59:54 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Mon May 30 15:59:54 UTC 2016|Scheduler|Startup Completed..
+Mon May 30 15:59:54 UTC 2016|Log Manager|Initialization Process Complete ......
+Mon May 30 15:59:54 UTC 2016|Log Manager Factory|Log Manager READY! ID = f5459b1b-8311-4caf-b6f8-d0ed61511a9a
+[EL Fine]: sql: 2016-05-30 15:59:54.536--ClientSession(1829275573)--Connection(168153172)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppMenus_M (menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [D7559AB2-0AF6-4189-8055-E379E98533B9, h3yPgoINAvOyPcnDTPctby2XKnTaoi2zb1ii2A5UlYToppl5Lc, 1, true, 8, 1TwFOgVc0ux7W3WSU0CSLL4LOxCSo5MDWafqDy3tYlFTWuO7LE, vReXr9nvLPzzxhkDTQDRdrnJZR4jNK2NUesmGfN5jcXMDnnLCR, true, true, BxTzZ6Q42wvJ0hnPacgLh33o72QK6fz08IKmXqCLk1ycgCVv2y, boOrBLhHJ5kVReSgdvKaPZO3gTrKalcZOuQtYK9YrVUTevv1nq, Fqv13M5sq1khGIvRDDcGLC4uuoeJNlaoiRw7yb7xUX4g117mQs, yAT5G0zNfa2R6jNSheE9UNd1hpvILPFXrTK1BqBWz1JOcBvPbC, GRv, 1, AAAAA, 2016-05-30 15:59:54.532, AAAAA, 2016-05-30 15:59:54.532, 1, 51000]
 Setting logged in user info for ADD
 Setting logged in user info for ADD
-[EL Fine]: sql: 2016-05-30 08:00:20.767--ClientSession(1105466305)--Connection(867983565)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Roles_T (roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [44074B51-29C0-4681-844B-DF96365510A1, YbxO4OdRd5MGfAjvT0uS0VNFnQ1MmuLxBDv8piYGGSanvSSd6d, 65AoG4Nwf8X6VeNwqlXVs64RkPXJzeX77oC6UJccOb4tTHhisG, gvPHaqkeCJe2GroQigFRM9wgbMZJX7LbUWLt3RXsT9mNLQgHfM, jmp7rTAMk5ugahof97Vk22RA39blwvATKpopqJdZlly1bw4X8L, 1, AAAAA, 2016-05-30 08:00:20.72, AAAAA, 2016-05-30 08:00:20.72, 1, 51000]
-[EL Fine]: sql: 2016-05-30 08:00:20.768--ClientSession(1105466305)--Connection(867983565)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_RoleMenuBridge_TP (roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [792B37BD-295E-4EE7-9F1C-07F10B72949C, true, true, true, D564EFFC-B632-4C0F-862E-255EBD6DD1FF, 1, AAAAA, 2016-05-30 08:00:20.72, AAAAA, 2016-05-30 08:00:20.72, 1, 51000, 44074B51-29C0-4681-844B-DF96365510A1]
-[EL Fine]: sql: 2016-05-30 08:00:20.939--ClientSession(703464533)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE ((activeStatus = ?) AND (roleId = ?))
-	bind => [1, 44074B51-29C0-4681-844B-DF96365510A1]
-[EL Fine]: sql: 2016-05-30 08:00:20.939--ClientSession(703464533)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
-	bind => [44074B51-29C0-4681-844B-DF96365510A1]
+[EL Fine]: sql: 2016-05-30 15:59:54.602--ClientSession(497847372)--Connection(168153172)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Roles_T (roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [CB1E14EC-885B-4162-AD37-A1DFD8B2594F, YbxO4OdRd5MGfAjvT0uS0VNFnQ1MmuLxBDv8piYGGSanvSSd6d, 65AoG4Nwf8X6VeNwqlXVs64RkPXJzeX77oC6UJccOb4tTHhisG, gvPHaqkeCJe2GroQigFRM9wgbMZJX7LbUWLt3RXsT9mNLQgHfM, jmp7rTAMk5ugahof97Vk22RA39blwvATKpopqJdZlly1bw4X8L, 1, AAAAA, 2016-05-30 15:59:54.532, AAAAA, 2016-05-30 15:59:54.532, 1, 51000]
+[EL Fine]: sql: 2016-05-30 15:59:54.604--ClientSession(497847372)--Connection(168153172)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_RoleMenuBridge_TP (roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [AB96EDCF-4ACA-47AC-8891-6847D15BE471, true, true, true, D7559AB2-0AF6-4189-8055-E379E98533B9, 1, AAAAA, 2016-05-30 15:59:54.532, AAAAA, 2016-05-30 15:59:54.532, 1, 51000, CB1E14EC-885B-4162-AD37-A1DFD8B2594F]
+[EL Fine]: sql: 2016-05-30 15:59:54.671--ClientSession(240505802)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE ((activeStatus = ?) AND (roleId = ?))
+	bind => [1, CB1E14EC-885B-4162-AD37-A1DFD8B2594F]
+[EL Fine]: sql: 2016-05-30 15:59:54.672--ClientSession(240505802)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind => [CB1E14EC-885B-4162-AD37-A1DFD8B2594F]
 Setting logged in user info for UPDATE
 Setting logged in user info for UPDATE
-[EL Fine]: sql: 2016-05-30 08:00:20.943--ClientSession(536579803)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE (roleId = ?)
-	bind => [44074B51-29C0-4681-844B-DF96365510A1]
-[EL Fine]: sql: 2016-05-30 08:00:20.944--ClientSession(536579803)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
-	bind => [44074B51-29C0-4681-844B-DF96365510A1]
-[EL Fine]: sql: 2016-05-30 08:00:20.946--ClientSession(536579803)--Connection(867983565)--Thread(Thread[Test worker,5,main])--UPDATE ast_Roles_T SET RoleDescription = ?, roleHelp = ?, RoleIcon = ?, RoleName = ?, versionId = ? WHERE ((roleId = ?) AND (versionId = ?))
-	bind => [SoAHw1ucJUS8yxbAobBUWyRTuUWogYjsMz8lsTHH3vtpEbbX5t, zEmEm7zGygYO9PbYauTcudwgWzn2eDuUvKT07UIgTzzAQUgfaP, gNXz1joy4f5Hob6TONjdYlscZ9ZZVxXKJVGW9WdNyrdLu9NzX3, BHdrlYnn5BiYvWoJdb5NUZNcWa1vpv7MWwtY38bKTMPLiIpvKk, 2, 44074B51-29C0-4681-844B-DF96365510A1, 1]
-[EL Fine]: sql: 2016-05-30 08:00:20.993--ClientSession(1512194905)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE ((activeStatus = ?) AND (roleId = ?))
-	bind => [1, 44074B51-29C0-4681-844B-DF96365510A1]
-[EL Fine]: sql: 2016-05-30 08:00:20.994--ClientSession(1512194905)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
-	bind => [44074B51-29C0-4681-844B-DF96365510A1]
-[EL Fine]: sql: 2016-05-30 08:00:21.019--ClientSession(1164399866)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE (roleId = ?)
-	bind => [44074B51-29C0-4681-844B-DF96365510A1]
-[EL Fine]: sql: 2016-05-30 08:00:21.021--ClientSession(1164399866)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
-	bind => [44074B51-29C0-4681-844B-DF96365510A1]
-[EL Fine]: sql: 2016-05-30 08:00:21.023--ClientSession(1164399866)--Connection(867983565)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_RoleMenuBridge_TP WHERE ((roleMenuMapId = ?) AND (versionId = ?))
-	bind => [792B37BD-295E-4EE7-9F1C-07F10B72949C, 1]
-[EL Fine]: sql: 2016-05-30 08:00:21.025--ClientSession(1164399866)--Connection(867983565)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Roles_T WHERE ((roleId = ?) AND (versionId = ?))
-	bind => [44074B51-29C0-4681-844B-DF96365510A1, 2]
-[EL Fine]: sql: 2016-05-30 08:00:21.065--ClientSession(27659672)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE (menuId = ?)
-	bind => [D564EFFC-B632-4C0F-862E-255EBD6DD1FF]
-[EL Fine]: sql: 2016-05-30 08:00:21.068--ClientSession(27659672)--Connection(867983565)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppMenus_M WHERE ((menuId = ?) AND (versionId = ?))
-	bind => [D564EFFC-B632-4C0F-862E-255EBD6DD1FF, 1]
+[EL Fine]: sql: 2016-05-30 15:59:54.676--ClientSession(804412289)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE (roleId = ?)
+	bind => [CB1E14EC-885B-4162-AD37-A1DFD8B2594F]
+[EL Fine]: sql: 2016-05-30 15:59:54.677--ClientSession(804412289)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind => [CB1E14EC-885B-4162-AD37-A1DFD8B2594F]
+[EL Fine]: sql: 2016-05-30 15:59:54.678--ClientSession(804412289)--Connection(168153172)--Thread(Thread[Test worker,5,main])--UPDATE ast_Roles_T SET RoleDescription = ?, roleHelp = ?, RoleIcon = ?, RoleName = ?, versionId = ? WHERE ((roleId = ?) AND (versionId = ?))
+	bind => [SoAHw1ucJUS8yxbAobBUWyRTuUWogYjsMz8lsTHH3vtpEbbX5t, zEmEm7zGygYO9PbYauTcudwgWzn2eDuUvKT07UIgTzzAQUgfaP, gNXz1joy4f5Hob6TONjdYlscZ9ZZVxXKJVGW9WdNyrdLu9NzX3, BHdrlYnn5BiYvWoJdb5NUZNcWa1vpv7MWwtY38bKTMPLiIpvKk, 2, CB1E14EC-885B-4162-AD37-A1DFD8B2594F, 1]
+[EL Fine]: sql: 2016-05-30 15:59:54.739--ClientSession(1229746218)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE ((activeStatus = ?) AND (roleId = ?))
+	bind => [1, CB1E14EC-885B-4162-AD37-A1DFD8B2594F]
+[EL Fine]: sql: 2016-05-30 15:59:54.741--ClientSession(1229746218)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind => [CB1E14EC-885B-4162-AD37-A1DFD8B2594F]
+[EL Fine]: sql: 2016-05-30 15:59:54.77--ClientSession(1604946310)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE (roleId = ?)
+	bind => [CB1E14EC-885B-4162-AD37-A1DFD8B2594F]
+[EL Fine]: sql: 2016-05-30 15:59:54.771--ClientSession(1604946310)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind => [CB1E14EC-885B-4162-AD37-A1DFD8B2594F]
+[EL Fine]: sql: 2016-05-30 15:59:54.773--ClientSession(1604946310)--Connection(168153172)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_RoleMenuBridge_TP WHERE ((roleMenuMapId = ?) AND (versionId = ?))
+	bind => [AB96EDCF-4ACA-47AC-8891-6847D15BE471, 1]
+[EL Fine]: sql: 2016-05-30 15:59:54.774--ClientSession(1604946310)--Connection(168153172)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Roles_T WHERE ((roleId = ?) AND (versionId = ?))
+	bind => [CB1E14EC-885B-4162-AD37-A1DFD8B2594F, 2]
+[EL Fine]: sql: 2016-05-30 15:59:54.83--ClientSession(471875371)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE (menuId = ?)
+	bind => [D7559AB2-0AF6-4189-8055-E379E98533B9]
+[EL Fine]: sql: 2016-05-30 15:59:54.832--ClientSession(471875371)--Connection(168153172)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppMenus_M WHERE ((menuId = ?) AND (versionId = ?))
+	bind => [D7559AB2-0AF6-4189-8055-E379E98533B9, 1]
 ]]></system-out>
   <system-err><![CDATA[java.lang.NoSuchFieldException: RoleName
 	at java.lang.Class.getDeclaredField(Class.java:1961)

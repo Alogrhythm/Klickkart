@@ -11,7 +11,6 @@ import org.eclipse.persistence.annotations.CacheType;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.sql.Timestamp;
 import javax.persistence.Column;
-import javax.validation.constraints.NotNull;
 import com.athena.config.jsonHandler.CustomSqlTimestampJsonSerializer;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.athena.config.jsonHandler.CustomSqlTimestampJsonDeserializer;
@@ -39,22 +38,20 @@ import javax.persistence.NamedQueries;
 @Table(name = "ast_OrderMain_T")
 @Entity
 @Cache(type = CacheType.CACHE)
-@SourceCodeAuthorClass(createdBy = "john.doe", updatedBy = "john.doe", versionNumber = "5", comments = "OrderMain", complexity = Complexity.LOW)
+@SourceCodeAuthorClass(createdBy = "john.doe", updatedBy = "john.doe", versionNumber = "13", comments = "OrderMain", complexity = Complexity.LOW)
 @JsonIdentityInfo(generator = PropertyGenerator.class, property = "orderId")
 @NamedQueries({ @javax.persistence.NamedQuery(name = "OrderMain.findByUserID", query = "select e from OrderMain e where e.systemInfo.activeStatus=1 and e.userID=:userID"), @javax.persistence.NamedQuery(name = "OrderMain.findById", query = "select e from OrderMain e where e.systemInfo.activeStatus=1 and e.orderId =:orderId") })
 public class OrderMain implements Serializable, CommonEntityInterface, Comparator<OrderMain> {
 
     @Column(name = "orderDate")
     @JsonProperty("orderDate")
-    @NotNull
     @JsonSerialize(using = CustomSqlTimestampJsonSerializer.class)
     @JsonDeserialize(using = CustomSqlTimestampJsonDeserializer.class)
     private Timestamp orderDate;
 
     @Column(name = "grandTotal")
     @JsonProperty("grandTotal")
-    @NotNull
-    @Min(-9223372000000000000L)
+    @Min(0)
     @Max(9223372000000000000L)
     private Double grandTotal;
 
@@ -98,9 +95,7 @@ public class OrderMain implements Serializable, CommonEntityInterface, Comparato
     }
 
     public void setOrderDate(Timestamp _orderDate) {
-        if (_orderDate != null) {
-            this.orderDate = _orderDate;
-        }
+        this.orderDate = _orderDate;
     }
 
     public Double getGrandTotal() {
@@ -108,9 +103,7 @@ public class OrderMain implements Serializable, CommonEntityInterface, Comparato
     }
 
     public void setGrandTotal(Double _grandTotal) {
-        if (_grandTotal != null) {
-            this.grandTotal = _grandTotal;
-        }
+        this.grandTotal = _grandTotal;
     }
 
     public String getPrimaryKey() {
@@ -193,7 +186,7 @@ public class OrderMain implements Serializable, CommonEntityInterface, Comparato
     }
 
     @JsonIgnore
-    public Integer sizeOfOrderDetail() {
+    public Integer getTotalNumberOfOrderDetail() {
         if (this.orderDetail != null) {
             return this.orderDetail.size();
         }

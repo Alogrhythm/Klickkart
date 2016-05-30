@@ -31,7 +31,7 @@ import java.lang.Override;
 @Table(name = "ast_OrderDetail_TP")
 @Entity
 @Cache(type = CacheType.CACHE)
-@SourceCodeAuthorClass(createdBy = "john.doe", updatedBy = "john.doe", versionNumber = "4", comments = "OrderDetail", complexity = Complexity.LOW)
+@SourceCodeAuthorClass(createdBy = "john.doe", updatedBy = "john.doe", versionNumber = "7", comments = "OrderDetail", complexity = Complexity.LOW)
 public class OrderDetail implements Serializable, CommonEntityInterface, Comparator<OrderDetail> {
 
     @Column(name = "qty")
@@ -317,10 +317,10 @@ public class OrderDetail implements Serializable, CommonEntityInterface, Compara
     @Override
     public int compare(OrderDetail object1, OrderDetail object2) {
         switch(((fieldName))) {
-            case "detId":
-                return (object1.getDetId().compareTo(object2.getDetId()) == 0) ? 0 : ((object1.getDetId().compareTo(object2.getDetId()) > 0) ? 1 : -1);
             case "subTotal":
                 return (object1.getSubTotal().compareTo(object2.getSubTotal()) == 0) ? 0 : ((object1.getSubTotal().compareTo(object2.getSubTotal()) > 0) ? 1 : -1);
+            case "detId":
+                return (object1.getDetId().compareTo(object2.getDetId()) == 0) ? 0 : ((object1.getDetId().compareTo(object2.getDetId()) > 0) ? 1 : -1);
         }
         return 0;
     }

@@ -23,10 +23,10 @@ public class AddTOCart {
     public void addtoCart(Cart entity) throws ItemOutOOfStock, Exception {
         if (entity != null) {
             com.shop.app.shared.shoppingcontext.retail.Item item = itemRepository.findById(entity.getItemID());
-            if (item.getItemStock() < item.getItemStock() - entity.getQty()) {
+            if (item.getItemStock() < entity.getQty()) {
                 throw new com.shop.app.customexceptions.ItemOutOOfStock("Out Of Stock", "SHPRT234101400", null);
             }
-            if (item.getItemStock() >= item.getItemStock() - entity.getQty()) {
+            if (item.getItemStock() >= entity.getQty()) {
                 entity.setSubTotal(item.getItemPrice() * entity.getQty());
                 entity.setUserId(runtimeLogInfoHelper.getRuntimeLogInfo().getUserId());
                 com.shop.app.shared.shoppingcontext.retail.Cart cart2 = cartRepository.save(entity);

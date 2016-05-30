@@ -3,13 +3,33 @@ Ext.define('Klickakart.klickakart.smartdevice.com.shop.view.shoppingcontext.reta
      "items": [{
           "xtype": "panel",
           "items": [{
-               "xtype": "displayfield",
+               "xtype": "panel",
+               "items": [{
+                    "xtype": "displayfield",
+                    "margin": 5,
+                    "bindable": "welcomeee",
+                    "style": "word-break: break-word; word-wrap: break-word;",
+                    "value": "<I>Welcome !!<\/i>",
+                    "name": "welcomeee",
+                    "itemId": "welcomeee_displayfield"
+               }, {
+                    "xtype": "displayfield",
+                    "margin": 5,
+                    "bindable": "welcomeMsg",
+                    "style": "word-break: break-word; word-wrap: break-word;",
+                    "name": "welcomeMsg",
+                    "itemId": "welcomeMsg_displayfield",
+                    "flex": 1
+               }],
+               "layout": {
+                    "type": "hbox"
+               },
+               "autoScroll": true,
+               "border": true,
+               "title": "H-Box",
                "margin": 5,
-               "bindable": "welcomeMsg",
-               "style": "word-break: break-word; word-wrap: break-word;",
-               "value": "Welcome !!!",
-               "name": "welcomeMsg",
-               "itemId": "welcomeMsg_displayfield"
+               "itemId": "panel_ext_18907",
+               "dockedItems": []
           }, {
                "xtype": "button",
                "name": "items",

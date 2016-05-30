@@ -23,13 +23,16 @@ Ext.define('Klickakart.klickakart.web.com.shop.controller.shoppingcontext.retail
                success: function(response, scope) {
                     var responseText = Ext.JSON.decode(response.responseText);
                     if (responseText.response.success) {
-                         Ext.Msg.alert('Server Response', 'Item Added To Cart');
+                         Ext.Msg.alert('Server Response', responseText.response.message);
                     } else if (!sessionTimeOutFlag) {
                          scope.sender.controller.responseHandler(responseText);
                     }
                },
                failure: function(response, scope) {
-                    Ext.Msg.alert('Server Response', 'Add To Cart Failed');
+                    if (!sessionTimeOutFlag) {
+                         var responseText = Ext.JSON.decode(response.responseText);
+                         scope.sender.controller.responseHandler(responseText);
+                    }
                }
           }, scope);
      }

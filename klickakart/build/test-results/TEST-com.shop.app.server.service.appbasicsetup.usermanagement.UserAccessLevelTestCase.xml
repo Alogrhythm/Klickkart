@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-30T08:00:21" hostname="ca7bfcc7a5ae" time="0.524">
+<testsuite name="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-30T15:59:56" hostname="7d6391b444da" time="0.66">
   <properties/>
-  <testcase name="test1Save" classname="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" time="0.107"/>
-  <testcase name="test2Update" classname="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" time="0.099"/>
-  <testcase name="test3FindById" classname="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" time="0.009"/>
-  <testcase name="test5NegativeTesting" classname="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" time="0.105"/>
-  <testcase name="test6Delete" classname="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" time="0.203"/>
-  <system-out><![CDATA[Mon May 30 08:00:21 UTC 2016|Log Manager Factory|Initialization Process started.....
-Mon May 30 08:00:21 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
-Mon May 30 08:00:21 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
-Mon May 30 08:00:21 UTC 2016|Alarm Manager|Loading Alarms ......
-Mon May 30 08:00:21 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
-Mon May 30 08:00:21 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
-Mon May 30 08:00:21 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/564 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP= A.Map=[645]  E.Map EC/RC=[237/66] )
-Mon May 30 08:00:21 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
-Mon May 30 08:00:21 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
-Mon May 30 08:00:21 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
-Mon May 30 08:00:21 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
-Mon May 30 08:00:21 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
-Mon May 30 08:00:21 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
-Mon May 30 08:00:21 UTC 2016|Alarm Manager|Initialized Exception Lookup...
-Mon May 30 08:00:21 UTC 2016|Log Manager|Initialize Log Config File ......
-Mon May 30 08:00:21 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
-Mon May 30 08:00:21 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
-Mon May 30 08:00:21 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
-Mon May 30 08:00:21 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
-Mon May 30 08:00:21 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
-Mon May 30 08:00:21 UTC 2016|Log Manager|Loading Default Connector for Logging ......
-Mon May 30 08:00:21 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
-Mon May 30 08:00:21 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
-Mon May 30 08:00:21 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@47caf176] ....
-Mon May 30 08:00:21 UTC 2016|Scheduler|Starting the Scheduler ......
-Mon May 30 08:00:21 UTC 2016|Scheduler|Adding [LMID=[38997cfc-9414-4290-8f90-256e7ae169e6]] Delay=5 Time Unit=MINUTES
-Mon May 30 08:00:21 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
-Mon May 30 08:00:21 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
-Mon May 30 08:00:21 UTC 2016|Scheduler|Startup Completed..
-Mon May 30 08:00:21 UTC 2016|Log Manager|Initialization Process Complete ......
-Mon May 30 08:00:21 UTC 2016|Log Manager Factory|Log Manager READY! ID = 38997cfc-9414-4290-8f90-256e7ae169e6
+  <testcase name="test1Save" classname="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" time="0.327"/>
+  <testcase name="test2Update" classname="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" time="0.143"/>
+  <testcase name="test3FindById" classname="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" time="0.011"/>
+  <testcase name="test5NegativeTesting" classname="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" time="0.112"/>
+  <testcase name="test6Delete" classname="com.shop.app.server.service.appbasicsetup.usermanagement.UserAccessLevelTestCase" time="0.065"/>
+  <system-out><![CDATA[Mon May 30 15:59:56 UTC 2016|Log Manager Factory|Initialization Process started.....
+Mon May 30 15:59:56 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
+Mon May 30 15:59:56 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
+Mon May 30 15:59:56 UTC 2016|Alarm Manager|Loading Alarms ......
+Mon May 30 15:59:56 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Mon May 30 15:59:56 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Mon May 30 15:59:56 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/564 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP= A.Map=[645]  E.Map EC/RC=[237/66] )
+Mon May 30 15:59:56 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Mon May 30 15:59:56 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Mon May 30 15:59:56 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
+Mon May 30 15:59:56 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
+Mon May 30 15:59:56 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Mon May 30 15:59:56 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
+Mon May 30 15:59:56 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Mon May 30 15:59:56 UTC 2016|Log Manager|Initialize Log Config File ......
+Mon May 30 15:59:56 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Mon May 30 15:59:56 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Mon May 30 15:59:56 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Mon May 30 15:59:56 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Mon May 30 15:59:56 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Mon May 30 15:59:56 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Mon May 30 15:59:56 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Mon May 30 15:59:56 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Mon May 30 15:59:56 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@2f5e92] ....
+Mon May 30 15:59:56 UTC 2016|Scheduler|Starting the Scheduler ......
+Mon May 30 15:59:56 UTC 2016|Scheduler|Adding [LMID=[f5459b1b-8311-4caf-b6f8-d0ed61511a9a]] Delay=5 Time Unit=MINUTES
+Mon May 30 15:59:56 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Mon May 30 15:59:56 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Mon May 30 15:59:56 UTC 2016|Scheduler|Startup Completed..
+Mon May 30 15:59:56 UTC 2016|Log Manager|Initialization Process Complete ......
+Mon May 30 15:59:56 UTC 2016|Log Manager Factory|Log Manager READY! ID = f5459b1b-8311-4caf-b6f8-d0ed61511a9a
 Setting logged in user info for ADD
-[EL Fine]: sql: 2016-05-30 08:00:21.961--ClientSession(291408743)--Connection(867983565)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [0B2A4DC2-0407-408C-9B5A-CA269067634E, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 13601, 1, AAAAA, 2016-05-30 08:00:21.957, AAAAA, 2016-05-30 08:00:21.957, 1, 51000]
-[EL Fine]: sql: 2016-05-30 08:00:22.051--ClientSession(324846666)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE ((activeStatus = ?) AND (userAccessLevelId = ?))
-	bind => [1, 0B2A4DC2-0407-408C-9B5A-CA269067634E]
+[EL Fine]: sql: 2016-05-30 15:59:56.143--ClientSession(160353802)--Connection(168153172)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [D71E1D85-CFBE-4973-A688-979EEBC8D628, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 92942, 1, AAAAA, 2016-05-30 15:59:56.14, AAAAA, 2016-05-30 15:59:56.14, 1, 51000]
+[EL Fine]: sql: 2016-05-30 15:59:56.462--ClientSession(959375569)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE ((activeStatus = ?) AND (userAccessLevelId = ?))
+	bind => [1, D71E1D85-CFBE-4973-A688-979EEBC8D628]
 Setting logged in user info for UPDATE
-[EL Fine]: sql: 2016-05-30 08:00:22.056--ClientSession(1954390779)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE (userAccessLevelId = ?)
-	bind => [0B2A4DC2-0407-408C-9B5A-CA269067634E]
-[EL Fine]: sql: 2016-05-30 08:00:22.057--ClientSession(1954390779)--Connection(867983565)--Thread(Thread[Test worker,5,main])--UPDATE ast_UserAccessLevel_M SET levelDescription = ?, levelHelp = ?, levelIcon = ?, levelName = ?, userAccessLevel = ?, versionId = ? WHERE ((userAccessLevelId = ?) AND (versionId = ?))
-	bind => [I9StWgxntTgY7StSpxUffaosyDIaBCEx3jLJ4aipIC1TLPwtPm, hdKAmAeei62Hyjn725Ap7pWY88zltnSH1bvS1Dj335gp3eMJKJ, 5GhhpqfBNw2HQpqPOWNe97qUHymAiZ5lnWOOscWBY5pPdGP0Dr, qjhFQKbbK3xO7LqvseCiIyK4vpesvsfAMfcZv3cU2m87uLrLFv, 63697, 2, 0B2A4DC2-0407-408C-9B5A-CA269067634E, 1]
-[EL Fine]: sql: 2016-05-30 08:00:22.15--ClientSession(223480461)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE ((activeStatus = ?) AND (userAccessLevelId = ?))
-	bind => [1, 0B2A4DC2-0407-408C-9B5A-CA269067634E]
-[EL Fine]: sql: 2016-05-30 08:00:22.162--ClientSession(602785795)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE ((activeStatus = ?) AND (userAccessLevelId = ?))
-	bind => [1, 0B2A4DC2-0407-408C-9B5A-CA269067634E]
-[EL Fine]: sql: 2016-05-30 08:00:22.194--ClientSession(169777208)--Connection(867983565)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [08082D27-5B42-4621-AC28-AAAC004204C5, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 63697, 1, AAAAA, 2016-05-30 08:00:22.19, AAAAA, 2016-05-30 08:00:22.19, 1, 51000]
-[EL Fine]: sql: 2016-05-30 08:00:22.195--ClientSession(169777208)--Thread(Thread[Test worker,5,main])--SELECT 1
-[EL Warning]: 2016-05-30 08:00:22.196--UnitOfWork(1818478178)--Thread(Thread[Test worker,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.1.v20130918-f2b9fc5): org.eclipse.persistence.exceptions.DatabaseException
+[EL Fine]: sql: 2016-05-30 15:59:56.469--ClientSession(1149662410)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE (userAccessLevelId = ?)
+	bind => [D71E1D85-CFBE-4973-A688-979EEBC8D628]
+[EL Fine]: sql: 2016-05-30 15:59:56.471--ClientSession(1149662410)--Connection(168153172)--Thread(Thread[Test worker,5,main])--UPDATE ast_UserAccessLevel_M SET levelDescription = ?, levelHelp = ?, levelIcon = ?, levelName = ?, userAccessLevel = ?, versionId = ? WHERE ((userAccessLevelId = ?) AND (versionId = ?))
+	bind => [I9StWgxntTgY7StSpxUffaosyDIaBCEx3jLJ4aipIC1TLPwtPm, hdKAmAeei62Hyjn725Ap7pWY88zltnSH1bvS1Dj335gp3eMJKJ, 5GhhpqfBNw2HQpqPOWNe97qUHymAiZ5lnWOOscWBY5pPdGP0Dr, qjhFQKbbK3xO7LqvseCiIyK4vpesvsfAMfcZv3cU2m87uLrLFv, 63697, 2, D71E1D85-CFBE-4973-A688-979EEBC8D628, 1]
+[EL Fine]: sql: 2016-05-30 15:59:56.595--ClientSession(1457106554)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE ((activeStatus = ?) AND (userAccessLevelId = ?))
+	bind => [1, D71E1D85-CFBE-4973-A688-979EEBC8D628]
+[EL Fine]: sql: 2016-05-30 15:59:56.607--ClientSession(2137002057)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE ((activeStatus = ?) AND (userAccessLevelId = ?))
+	bind => [1, D71E1D85-CFBE-4973-A688-979EEBC8D628]
+[EL Fine]: sql: 2016-05-30 15:59:56.639--ClientSession(321211039)--Connection(168153172)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [4E0F1D36-B815-475E-A68D-D6E86D592187, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 63697, 1, AAAAA, 2016-05-30 15:59:56.635, AAAAA, 2016-05-30 15:59:56.635, 1, 51000]
+[EL Fine]: sql: 2016-05-30 15:59:56.641--ClientSession(321211039)--Thread(Thread[Test worker,5,main])--SELECT 1
+[EL Warning]: 2016-05-30 15:59:56.641--UnitOfWork(886090867)--Thread(Thread[Test worker,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.1.v20130918-f2b9fc5): org.eclipse.persistence.exceptions.DatabaseException
 Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '63697' for key 'userAccessLevel'
 Error Code: 1062
 Call: INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [08082D27-5B42-4621-AC28-AAAC004204C5, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 63697, 1, AAAAA, 2016-05-30 08:00:22.19, AAAAA, 2016-05-30 08:00:22.19, 1, 51000]
+	bind => [4E0F1D36-B815-475E-A68D-D6E86D592187, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 63697, 1, AAAAA, 2016-05-30 15:59:56.635, AAAAA, 2016-05-30 15:59:56.635, 1, 51000]
 Query: InsertObjectQuery(63697,Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T,73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs)
-[EL Fine]: sql: 2016-05-30 08:00:22.269--ClientSession(1323630912)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE (userAccessLevelId = ?)
-	bind => [0B2A4DC2-0407-408C-9B5A-CA269067634E]
-[EL Fine]: sql: 2016-05-30 08:00:22.271--ClientSession(1323630912)--Connection(867983565)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserAccessLevel_M WHERE ((userAccessLevelId = ?) AND (versionId = ?))
-	bind => [0B2A4DC2-0407-408C-9B5A-CA269067634E, 2]
+[EL Fine]: sql: 2016-05-30 15:59:56.72--ClientSession(424659614)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_UserAccessLevel_M WHERE (userAccessLevelId = ?)
+	bind => [D71E1D85-CFBE-4973-A688-979EEBC8D628]
+[EL Fine]: sql: 2016-05-30 15:59:56.722--ClientSession(424659614)--Connection(168153172)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_UserAccessLevel_M WHERE ((userAccessLevelId = ?) AND (versionId = ?))
+	bind => [D71E1D85-CFBE-4973-A688-979EEBC8D628, 2]
 ]]></system-out>
   <system-err><![CDATA[UserAccessLevel.userAccessLevel may not be null
 java.lang.SecurityException: UserAccessLevel.userAccessLevel may not be null
@@ -501,7 +501,7 @@ org.springframework.transaction.TransactionSystemException: Could not commit JPA
 Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '63697' for key 'userAccessLevel'
 Error Code: 1062
 Call: INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [08082D27-5B42-4621-AC28-AAAC004204C5, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 63697, 1, AAAAA, 2016-05-30 08:00:22.19, AAAAA, 2016-05-30 08:00:22.19, 1, 51000]
+	bind => [4E0F1D36-B815-475E-A68D-D6E86D592187, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 63697, 1, AAAAA, 2016-05-30 15:59:56.635, AAAAA, 2016-05-30 15:59:56.635, 1, 51000]
 Query: InsertObjectQuery(63697,Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T,73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs)
 	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:524)
 	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:757)
@@ -568,7 +568,7 @@ Caused by: javax.persistence.RollbackException: Exception [EclipseLink-4002] (Ec
 Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '63697' for key 'userAccessLevel'
 Error Code: 1062
 Call: INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [08082D27-5B42-4621-AC28-AAAC004204C5, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 63697, 1, AAAAA, 2016-05-30 08:00:22.19, AAAAA, 2016-05-30 08:00:22.19, 1, 51000]
+	bind => [4E0F1D36-B815-475E-A68D-D6E86D592187, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 63697, 1, AAAAA, 2016-05-30 15:59:56.635, AAAAA, 2016-05-30 15:59:56.635, 1, 51000]
 Query: InsertObjectQuery(63697,Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T,73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs)
 	at org.eclipse.persistence.internal.jpa.transaction.EntityTransactionImpl.commit(EntityTransactionImpl.java:157)
 	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:515)
@@ -577,7 +577,7 @@ Caused by: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.1.v2
 Internal Exception: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '63697' for key 'userAccessLevel'
 Error Code: 1062
 Call: INSERT INTO ast_UserAccessLevel_M (userAccessLevelId, levelDescription, levelHelp, levelIcon, levelName, userAccessLevel, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [08082D27-5B42-4621-AC28-AAAC004204C5, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 63697, 1, AAAAA, 2016-05-30 08:00:22.19, AAAAA, 2016-05-30 08:00:22.19, 1, 51000]
+	bind => [4E0F1D36-B815-475E-A68D-D6E86D592187, 73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs, Iw5KqPu9zj7w2rxPbP5zZgYcXYq18zlLIoPEvRGyle3TdQK3TB, QlkOdZIOmEWR1qSRmYvDfKm7CaFWgJfPef5xspHYdW6IWE7wxn, Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T, 63697, 1, AAAAA, 2016-05-30 15:59:56.635, AAAAA, 2016-05-30 15:59:56.635, 1, 51000]
 Query: InsertObjectQuery(63697,Bu6ixBaFy4PBAz2uJ2L4g42Z1x1xtPqTCGH78rBk3qIrlFxO9T,73ghFruDrVPX7URmp7cNhc6Hn2D1lcGDEBNy3vdM3RkiZgqNBs)
 	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:331)
 	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeDirectNoSelect(DatabaseAccessor.java:900)

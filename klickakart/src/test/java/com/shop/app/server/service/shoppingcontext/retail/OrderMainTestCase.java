@@ -135,49 +135,49 @@ public class OrderMainTestCase extends EntityTestCriteria {
     private OrderMain createOrderMain(Boolean isSave) throws Exception {
         User user = new User();
         user.setIsDeleted(1);
-        user.setSessionTimeout(1461);
+        user.setSessionTimeout(1256);
         UserAccessDomain useraccessdomain = new UserAccessDomain();
         useraccessdomain.setUserAccessDomain(valueGenerator.getRandomInteger(99999, 0));
-        useraccessdomain.setDomainIcon("9GfGWL6wdGNylSVfzaJjDbqFiwCpkUjtdm162OIODkimTBEK6p");
-        useraccessdomain.setDomainHelp("N2Hg8xVaZI5zen3PvFiburkJ7Ujdi7RaBe1wSX1dzrLFHi8G17");
-        useraccessdomain.setDomainName("VApUCjSNfb8K6GL7TbAfIGuOMA0MjpekWz7VPEe1UdUFQ1zuzP");
-        useraccessdomain.setDomainDescription("2eXRI9Ux7UfyidGCGRkkqT65ye7SQrdbQtdD8txVjTCfNBbITj");
+        useraccessdomain.setDomainIcon("T3zDQaROlrAyKoTf8zpocgmdTQcOvvpeUXjHnoEHzOn7ZTOb0Z");
+        useraccessdomain.setDomainHelp("qpyauiTrg1ZqnAxMIdbmQCW4ElDQoym0eV8oOwNAeqeOyEY6Lu");
+        useraccessdomain.setDomainName("KSnN8gkioeVXkhOGx8067ByHNmmWZqvbbOUiJmXE7oXfOABv87");
+        useraccessdomain.setDomainDescription("IHhtIbXFBaHJeUHXOqGpeOdiaG9PbtPZFYHDgSQyQViX3sHibk");
         UserAccessDomain UserAccessDomainTest = new UserAccessDomain();
         if (isSave) {
             UserAccessDomainTest = useraccessdomainRepository.save(useraccessdomain);
             map.put("UserAccessDomainPrimaryKey", useraccessdomain._getPrimarykey());
         }
         UserAccessLevel useraccesslevel = new UserAccessLevel();
-        useraccesslevel.setLevelName("sijoGJdaPiNxf2h89WHKtAV5JFqq60UbilDoYnhXMSU4uZCfh8");
-        useraccesslevel.setLevelHelp("04tCGTJwfd3EOTRCX3YHgQF1zYSut2CGVchPIiM8QC2GRKjOTP");
-        useraccesslevel.setLevelIcon("AHE446gfd7sGvb6xjYR6L2n3Rias9JP4h68EWLyOpyItnYCUDu");
+        useraccesslevel.setLevelName("ttSLVvHXhM9cPIpY3Rts6kBZaAh0Oadnpszl1Yw2wGQUOXwFo8");
+        useraccesslevel.setLevelHelp("PjwU5DU9PYPLG9qWeLKsgcW1QaQ7WC3kxqaRFqHzuc4OeHZQwQ");
+        useraccesslevel.setLevelIcon("LVuGGXVpJgUJbTRHgfFZPvABPf9RMFx9qGsY3lfneReChOJNH9");
         useraccesslevel.setUserAccessLevel(valueGenerator.getRandomInteger(99999, 0));
-        useraccesslevel.setLevelDescription("GSG1hfeIpPBsUkNErAYyFTrBWk8Y6dqdTBASmrGSJFRfY2cmUN");
+        useraccesslevel.setLevelDescription("uB9Y5iCTuNGjWi6v4cM0ftEdita8W77NVKVWJERv2ZHJYwli82");
         UserAccessLevel UserAccessLevelTest = new UserAccessLevel();
         if (isSave) {
             UserAccessLevelTest = useraccesslevelRepository.save(useraccesslevel);
             map.put("UserAccessLevelPrimaryKey", useraccesslevel._getPrimarykey());
         }
         user.setIsDeleted(1);
-        user.setSessionTimeout(3572);
+        user.setSessionTimeout(2777);
         user.setUserAccessDomainId((java.lang.String) UserAccessDomainTest._getPrimarykey()); /* ******Adding refrenced table data */
-        user.setUserAccessCode(42877);
+        user.setUserAccessCode(33657);
         user.setChangePasswordNextLogin(1);
         user.setAllowMultipleLogin(1);
-        user.setPasswordAlgo("5s4JAWDYvUjAPpgQ4Izh3mqZ3lDfuV2lLxAysk1x7B3qYajKEy");
+        user.setPasswordAlgo("Z6eroDKGbBNmV9LkCxR04sBcspLd7eSY4reMrRIlVg9s7pyVXb");
         user.setMultiFactorAuthEnabled(1);
-        user.setPasswordExpiryDate(new java.sql.Timestamp(1464509946455l));
+        user.setPasswordExpiryDate(new java.sql.Timestamp(1464603017727l));
         user.setGenTempOneTimePassword(1);
-        user.setLastPasswordChangeDate(new java.sql.Timestamp(1464509946455l));
+        user.setLastPasswordChangeDate(new java.sql.Timestamp(1464603017727l));
         user.setIsLocked(1);
         user.setUserAccessLevelId((java.lang.String) UserAccessLevelTest._getPrimarykey()); /* ******Adding refrenced table data */
         java.util.List<PassRecovery> listOfPassRecovery = new java.util.ArrayList<PassRecovery>();
         PassRecovery passrecovery = new PassRecovery();
         Question question = new Question();
-        question.setQuestionIcon("mgXYXrNq96owDf5NagLrZ2KxnvbTEemrD1mG9vA5JBb8UWA2YM");
-        question.setQuestion("nLXVE7sA5TPA9x6Wk7t3FOVwaDHebZf7WnjOzMNJM0sNe5JMkh");
-        question.setLevelid(5);
-        question.setQuestionDetails("U69L7M7oif");
+        question.setQuestionIcon("0oEZGA4oFtaIcbw2CLiYMXizvVHJboPeN4NmR64EKC3F2xxR3E");
+        question.setQuestion("G1h6039GiYWYSU2QE4b8pCiz8cFpqhFKFTfcU8Qp6TieImvdkM");
+        question.setLevelid(1);
+        question.setQuestionDetails("7EMIeXyITx");
         Question QuestionTest = new Question();
         if (isSave) {
             QuestionTest = questionRepository.save(question);
@@ -185,20 +185,20 @@ public class OrderMainTestCase extends EntityTestCriteria {
         }
         passrecovery.setUser(user);
         passrecovery.setQuestionId((java.lang.String) QuestionTest._getPrimarykey()); /* ******Adding refrenced table data */
-        passrecovery.setAnswer("tJIUJ0hPbTbqOPUTgbPSGUhD1epEpXPNGKTIF0jRL60yLeN9mP");
+        passrecovery.setAnswer("tB6lzSQhYCKmfRm2lheUqBJoetXOyXnFF2hEIvm0lCCOy5AthP");
         listOfPassRecovery.add(passrecovery);
         user.addAllPassRecovery(listOfPassRecovery);
         UserData userdata = new UserData();
-        userdata.setOneTimePassword("NKkwp04UHYsKtT9Nn92nYapgxgSpDBHO");
-        userdata.setLast5Passwords("JK8FSS3GiPpCuwJkdMynYrgFHl9C6b03QbuRuPo3A7Vf5WlrfL");
-        userdata.setOneTimePasswordGenDate(new java.sql.Timestamp(1464509946636l));
-        userdata.setOneTimePasswordExpiry(7);
-        userdata.setPassword("EEJyNBMukHkLdrDT01xzqGhLfkWKOMwvhmAkTklGwi6SLNoYb0");
-        userdata.setOneTimePassword("S7vIWdPWpvylfSLMDnx2TexvFmxfYGNf");
-        userdata.setLast5Passwords("0HnEd2oPtdOCsjzWeZBLm5wer4WEwzeFcC0Xgk0vFruJAmgS8o");
-        userdata.setOneTimePasswordGenDate(new java.sql.Timestamp(1464509946644l));
+        userdata.setOneTimePassword("b3YK9Pp30WgaruiqrVu8p3PQF9yia3wp");
+        userdata.setLast5Passwords("Gdba3u3EqNhkld9cRAhjNzUhyrftWkKpqS0MG3sFDyKcejA3IV");
+        userdata.setOneTimePasswordGenDate(new java.sql.Timestamp(1464603017913l));
         userdata.setOneTimePasswordExpiry(11);
-        userdata.setPassword("miXaPTypDAOqGpO0YtNMJyAzc6OOSlbSFgPs4yAJs0dzHxM5mr");
+        userdata.setPassword("Nflu1Fqi2bulUnhe2P2eDIe77gVbz39XIYP8Iy4i2vttZuquHm");
+        userdata.setOneTimePassword("PyhIOQ9b86YNtHCN90ryGbn0tmziu1ne");
+        userdata.setLast5Passwords("30bvUnJOs6Vfi86ZBRITboQTIwqSrOsIOnHR9TE4LCfnpFe5BH");
+        userdata.setOneTimePasswordGenDate(new java.sql.Timestamp(1464603017921l));
+        userdata.setOneTimePasswordExpiry(6);
+        userdata.setPassword("gB4skUwOMfgbXBqOHw9R8JhK9BxW2PFMy2Iw9s1WDLsYW2dWdI");
         userdata.setUser(user);
         user.setUserData(userdata);
         User UserTest = new User();
@@ -208,32 +208,32 @@ public class OrderMainTestCase extends EntityTestCriteria {
         }
         OrderMain ordermain = new OrderMain();
         ordermain.setUserID((java.lang.String) UserTest._getPrimarykey()); /* ******Adding refrenced table data */
-        ordermain.setGrandTotal(-4300.0d);
-        ordermain.setOrderDate(new java.sql.Timestamp(1464509946705l));
+        ordermain.setGrandTotal(300.0d);
+        ordermain.setOrderDate(new java.sql.Timestamp(1464603017984l));
         java.util.List<OrderDetail> listOfOrderDetail = new java.util.ArrayList<OrderDetail>();
         OrderDetail orderdetail = new OrderDetail();
-        orderdetail.setSubTotal(7100.0d);
+        orderdetail.setSubTotal(9100.0d);
         orderdetail.setQty(2147483647);
         Item item = new Item();
-        item.setItemImg("rwN1HLKRLbc8PfLS5wLt7HiT6M6U8ZKonJuYvR67DeWTZdLOpW");
+        item.setItemImg("3iXFHkNnK4N965zCKkKDh8qm2qV0QH5noeedfrPtbfQcoALXCq");
         Product product = new Product();
-        product.setProductDesc("I97Dwa8btCukjNzmOF66M8JwIMdMiaDzFd1zADapzJvvYPJskf");
+        product.setProductDesc("bvlzds3p8lSkuDu3hHARkTU0IUY3MGZHbRqTuL2ZenMeSAQoWG");
         Product ProductTest = new Product();
         if (isSave) {
             ProductTest = productRepository.save(product);
             map.put("ProductPrimaryKey", product._getPrimarykey());
         }
-        item.setItemImg("LxWMcPSCn8eMxkaoHL9TdU9MlwGM7WnlksVSpNX1k91rgFu0W4");
+        item.setItemImg("WqNBHWDwFvThQLBTpAiH3ZFWq17cwd92HdRWYPS5FWuWfLLeqh");
         item.setProductId((java.lang.String) ProductTest._getPrimarykey()); /* ******Adding refrenced table data */
-        item.setItemPrice(1265.45d);
-        item.setItemName("A4Ij0lHyNYOcEaQtAUuJBVn6rU659d1Efvfnc3SLsmPijOB9zl");
-        item.setItemStock(826730108);
+        item.setItemPrice(1284.63d);
+        item.setItemName("FmdyNGTRfsti3alBhBVkQjZJ1SwKAnT4vk05sYOB8u027KNyKj");
+        item.setItemStock(223574147);
         Item ItemTest = new Item();
         if (isSave) {
             ItemTest = itemRepository.save(item);
             map.put("ItemPrimaryKey", item._getPrimarykey());
         }
-        orderdetail.setSubTotal(2368.0d);
+        orderdetail.setSubTotal(-830.0d);
         orderdetail.setQty(2147483647);
         orderdetail.setItemId((java.lang.String) ItemTest._getPrimarykey());
         orderdetail.setOrderMain(ordermain);
@@ -279,9 +279,9 @@ public class OrderMainTestCase extends EntityTestCriteria {
         try {
             org.junit.Assert.assertNotNull(map.get("OrderMainPrimaryKey"));
             OrderMain ordermain = ordermainRepository.findById((java.lang.String) map.get("OrderMainPrimaryKey"));
-            ordermain.setGrandTotal(-7390.0d);
             ordermain.setVersionId(1);
-            ordermain.setOrderDate(new java.sql.Timestamp(1464509946871l));
+            ordermain.setGrandTotal(4100.0d);
+            ordermain.setOrderDate(new java.sql.Timestamp(1464603018148l));
             ordermain.setEntityAudit(1, "xyz", RECORD_TYPE.UPDATE);
             ordermainRepository.update(ordermain);
         } catch (java.lang.Exception e) {
@@ -341,9 +341,7 @@ public class OrderMainTestCase extends EntityTestCriteria {
 
     private List<EntityTestCriteria> addingListOfFieldForNegativeTesting() {
         List<EntityTestCriteria> entityContraints = new java.util.ArrayList<EntityTestCriteria>();
-        entityContraints.add(new EntityTestCriteria(NOT_NULL, 1, "orderDate", null));
-        entityContraints.add(new EntityTestCriteria(NOT_NULL, 2, "grandTotal", null));
-        entityContraints.add(new EntityTestCriteria(MIN_MAX, 3, "grandTotal", 1.2284194204159711E19d));
+        entityContraints.add(new EntityTestCriteria(MIN_MAX, 1, "grandTotal", 1.4045381144936065E19d));
         return entityContraints;
     }
 
@@ -361,18 +359,6 @@ public class OrderMainTestCase extends EntityTestCriteria {
                     case 0:
                         break;
                     case 1:
-                        field.setAccessible(true);
-                        field.set(ordermain, null);
-                        validateOrderMain(contraints, ordermain);
-                        failureCount++;
-                        break;
-                    case 2:
-                        field.setAccessible(true);
-                        field.set(ordermain, null);
-                        validateOrderMain(contraints, ordermain);
-                        failureCount++;
-                        break;
-                    case 3:
                         ordermain.setGrandTotal(Double.valueOf(contraints.getNegativeValue().toString()));
                         validateOrderMain(contraints, ordermain);
                         failureCount++;

@@ -957,6 +957,7 @@ $include-klickakart-klickakart-shared-com-shop-model-shoppingcontext-retail-orde
 $include-klickakart-klickakart-shared-com-shop-model-shoppingcontext-retail-orderprocessingmodel: true;
 $include-klickakart-klickakart-shared-com-shop-model-shoppingcontext-retail-orderprocessingggmodel: true;
 $include-klickakart-klickakart-shared-com-shop-model-shoppingcontext-retail-paymentdetailsmodel: true;
+$include-klickakart-klickakart-shared-com-shop-model-shoppingcontext-retail-productcateloguemodel: true;
 $include-klickakart-klickakart-shared-com-shop-model-shoppingcontext-retail-productmodel: true;
 $include-klickakart-klickakart-shared-com-shop-model-shoppingcontext-retail-templateofitemmodel: true;
 $include-klickakart-klickakart-shared-com-shop-model-shoppingcontext-retail-transactionresponsemodel: true;
@@ -980,15 +981,18 @@ $include-klickakart-klickakart-shared-com-shop-viewmodel-shoppingcontext-retail-
 $include-klickakart-klickakart-shared-com-shop-viewmodel-shoppingcontext-retail-mainscreenviewmodel: true;
 $include-klickakart-klickakart-shared-com-shop-viewmodel-shoppingcontext-retail-orderprocessingviewmodel: true;
 $include-klickakart-klickakart-shared-com-shop-viewmodel-shoppingcontext-retail-orderprocessingggviewmodel: true;
+$include-klickakart-klickakart-shared-com-shop-viewmodel-shoppingcontext-retail-productcatelogueviewmodel: true;
 $include-klickakart-klickakart-shared-com-shop-viewmodel-shoppingcontext-retail-productviewmodel: true;
 $include-klickakart-klickakart-shared-com-shop-viewmodel-shoppingcontext-retail-templateofitemviewmodel: true;
 $include-klickakart-klickakart-smartdevice-com-shop-controller-shoppingcontext-retail-itemcatelogueeecontroller: true;
 $include-klickakart-klickakart-smartdevice-com-shop-controller-shoppingcontext-retail-mainscreencontroller: true;
 $include-klickakart-klickakart-smartdevice-com-shop-controller-shoppingcontext-retail-orderprocessingggcontroller: true;
+$include-klickakart-klickakart-smartdevice-com-shop-controller-shoppingcontext-retail-productcateloguecontroller: true;
 $include-klickakart-klickakart-smartdevice-com-shop-controller-shoppingcontext-retail-templateofitemcontroller: true;
 $include-klickakart-klickakart-smartdevice-com-shop-view-shoppingcontext-retail-itemcatelogueee: true;
 $include-klickakart-klickakart-smartdevice-com-shop-view-shoppingcontext-retail-mainscreen: true;
 $include-klickakart-klickakart-smartdevice-com-shop-view-shoppingcontext-retail-orderprocessinggg: true;
+$include-klickakart-klickakart-smartdevice-com-shop-view-shoppingcontext-retail-productcatelogue: true;
 $include-klickakart-klickakart-smartdevice-com-shop-view-shoppingcontext-retail-templateofitem: true;
 $include-klickakart-view-fw-daterange: true;
 $include-klickakart-view-fw-component-customcheckboxgroup: true;

@@ -52,7 +52,7 @@ Ext.define('Klickakart.klickakart.smartdevice.com.shop.controller.shoppingcontex
                     var responseText = Ext.JSON.decode(response.responseText);
                     if (responseText.response.success) {
                          var responseData = responseText.response.data;
-                         scope.sender.down('#orderTotal_displayfield').setValue(responseData.cartSubtotal);
+                         scope.sender.down('#cartSubtotal_displayfield').setValue(responseData.cartSubtotal);
                     } else if (!sessionTimeOutFlag) {
                          scope.sender.controller.responseHandler(responseText);
                     }

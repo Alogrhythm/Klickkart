@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-30T08:00:23" hostname="ca7bfcc7a5ae" time="0.222">
+<testsuite name="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-30T15:59:57" hostname="7d6391b444da" time="0.5">
   <properties/>
-  <testcase name="test1Save" classname="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" time="0.078"/>
-  <testcase name="test2Update" classname="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" time="0.056"/>
-  <testcase name="test3FindById" classname="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" time="0.008"/>
-  <testcase name="test5NegativeTesting" classname="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" time="0.019"/>
-  <testcase name="test6Delete" classname="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" time="0.061"/>
-  <system-out><![CDATA[Mon May 30 08:00:23 UTC 2016|Log Manager Factory|Initialization Process started.....
-Mon May 30 08:00:23 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
-Mon May 30 08:00:23 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
-Mon May 30 08:00:23 UTC 2016|Alarm Manager|Loading Alarms ......
-Mon May 30 08:00:23 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
-Mon May 30 08:00:23 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
-Mon May 30 08:00:23 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/564 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP= A.Map=[645]  E.Map EC/RC=[237/66] )
-Mon May 30 08:00:23 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
-Mon May 30 08:00:23 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
-Mon May 30 08:00:23 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
-Mon May 30 08:00:23 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
-Mon May 30 08:00:23 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
-Mon May 30 08:00:23 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
-Mon May 30 08:00:23 UTC 2016|Alarm Manager|Initialized Exception Lookup...
-Mon May 30 08:00:23 UTC 2016|Log Manager|Initialize Log Config File ......
-Mon May 30 08:00:23 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
-Mon May 30 08:00:23 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
-Mon May 30 08:00:23 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
-Mon May 30 08:00:23 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
-Mon May 30 08:00:23 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
-Mon May 30 08:00:23 UTC 2016|Log Manager|Loading Default Connector for Logging ......
-Mon May 30 08:00:23 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
-Mon May 30 08:00:23 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
-Mon May 30 08:00:23 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@72a33975] ....
-Mon May 30 08:00:23 UTC 2016|Scheduler|Starting the Scheduler ......
-Mon May 30 08:00:23 UTC 2016|Scheduler|Adding [LMID=[38997cfc-9414-4290-8f90-256e7ae169e6]] Delay=5 Time Unit=MINUTES
-Mon May 30 08:00:23 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
-Mon May 30 08:00:23 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
-Mon May 30 08:00:23 UTC 2016|Scheduler|Startup Completed..
-Mon May 30 08:00:23 UTC 2016|Log Manager|Initialization Process Complete ......
-Mon May 30 08:00:23 UTC 2016|Log Manager Factory|Log Manager READY! ID = 38997cfc-9414-4290-8f90-256e7ae169e6
+  <testcase name="test1Save" classname="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" time="0.133"/>
+  <testcase name="test2Update" classname="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" time="0.149"/>
+  <testcase name="test3FindById" classname="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" time="0.009"/>
+  <testcase name="test5NegativeTesting" classname="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" time="0.017"/>
+  <testcase name="test6Delete" classname="com.shop.app.server.service.appbasicsetup.usermanagement.QuestionTestCase" time="0.191"/>
+  <system-out><![CDATA[Mon May 30 15:59:57 UTC 2016|Log Manager Factory|Initialization Process started.....
+Mon May 30 15:59:57 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
+Mon May 30 15:59:57 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
+Mon May 30 15:59:57 UTC 2016|Alarm Manager|Loading Alarms ......
+Mon May 30 15:59:57 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Mon May 30 15:59:57 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Mon May 30 15:59:57 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/564 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP= A.Map=[645]  E.Map EC/RC=[237/66] )
+Mon May 30 15:59:57 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Mon May 30 15:59:57 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Mon May 30 15:59:57 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
+Mon May 30 15:59:57 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
+Mon May 30 15:59:57 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Mon May 30 15:59:57 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
+Mon May 30 15:59:57 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Mon May 30 15:59:57 UTC 2016|Log Manager|Initialize Log Config File ......
+Mon May 30 15:59:57 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Mon May 30 15:59:57 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Mon May 30 15:59:57 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Mon May 30 15:59:57 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Mon May 30 15:59:57 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Mon May 30 15:59:57 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Mon May 30 15:59:57 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Mon May 30 15:59:57 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Mon May 30 15:59:57 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@3a37824f] ....
+Mon May 30 15:59:57 UTC 2016|Scheduler|Starting the Scheduler ......
+Mon May 30 15:59:57 UTC 2016|Scheduler|Adding [LMID=[f5459b1b-8311-4caf-b6f8-d0ed61511a9a]] Delay=5 Time Unit=MINUTES
+Mon May 30 15:59:57 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Mon May 30 15:59:57 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Mon May 30 15:59:57 UTC 2016|Scheduler|Startup Completed..
+Mon May 30 15:59:57 UTC 2016|Log Manager|Initialization Process Complete ......
+Mon May 30 15:59:57 UTC 2016|Log Manager Factory|Log Manager READY! ID = f5459b1b-8311-4caf-b6f8-d0ed61511a9a
 Setting logged in user info for ADD
-[EL Fine]: sql: 2016-05-30 08:00:23.582--ClientSession(203648690)--Connection(867983565)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Question_M (questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [7EDA658A-60FB-415B-8EC9-7DBB2FABB9EA, 1, K4KgXCM6hJzpWZljzqewmD134oYjym2G4SJG5PGyUqK8FYKPcK, z2KkGWcZAG, Brff0cd4rCersVSsftpFZyC9Pl0nxfigD9Jf54lDWmHjeJSydR, 1, AAAAA, 2016-05-30 08:00:23.579, AAAAA, 2016-05-30 08:00:23.579, 1, 51000]
-[EL Fine]: sql: 2016-05-30 08:00:23.644--ClientSession(1850351906)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE ((activeStatus = ?) AND (questionId = ?))
-	bind => [1, 7EDA658A-60FB-415B-8EC9-7DBB2FABB9EA]
+[EL Fine]: sql: 2016-05-30 15:59:57.832--ClientSession(773699261)--Connection(168153172)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Question_M (questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [1B908BB2-F4DE-4E18-86E1-C7DD8DD89A3A, 1, K4KgXCM6hJzpWZljzqewmD134oYjym2G4SJG5PGyUqK8FYKPcK, z2KkGWcZAG, Brff0cd4rCersVSsftpFZyC9Pl0nxfigD9Jf54lDWmHjeJSydR, 1, AAAAA, 2016-05-30 15:59:57.829, AAAAA, 2016-05-30 15:59:57.829, 1, 51000]
+[EL Fine]: sql: 2016-05-30 15:59:57.941--ClientSession(1033299393)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE ((activeStatus = ?) AND (questionId = ?))
+	bind => [1, 1B908BB2-F4DE-4E18-86E1-C7DD8DD89A3A]
 Setting logged in user info for UPDATE
-[EL Fine]: sql: 2016-05-30 08:00:23.647--ClientSession(1135030083)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE (questionId = ?)
-	bind => [7EDA658A-60FB-415B-8EC9-7DBB2FABB9EA]
-[EL Fine]: sql: 2016-05-30 08:00:23.649--ClientSession(1135030083)--Connection(867983565)--Thread(Thread[Test worker,5,main])--UPDATE ast_Question_M SET levelid = ?, question = ?, questionDetails = ?, questionIcon = ?, versionId = ? WHERE ((questionId = ?) AND (versionId = ?))
-	bind => [10, 2sd2URuugEH71nK3r7UdtYou3zD066AaYpwNphrPbqOluJt9S7, Z50dlZXCiO, UKzB96XhwkU8XoqdvoBfdu8r7wT1y1pl07DGquph7dLHVG8Fwp, 2, 7EDA658A-60FB-415B-8EC9-7DBB2FABB9EA, 1]
-[EL Fine]: sql: 2016-05-30 08:00:23.699--ClientSession(132936013)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE ((activeStatus = ?) AND (questionId = ?))
-	bind => [1, 7EDA658A-60FB-415B-8EC9-7DBB2FABB9EA]
-[EL Fine]: sql: 2016-05-30 08:00:23.728--ClientSession(890990863)--Connection(867983565)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE (questionId = ?)
-	bind => [7EDA658A-60FB-415B-8EC9-7DBB2FABB9EA]
-[EL Fine]: sql: 2016-05-30 08:00:23.729--ClientSession(890990863)--Connection(867983565)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Question_M WHERE ((questionId = ?) AND (versionId = ?))
-	bind => [7EDA658A-60FB-415B-8EC9-7DBB2FABB9EA, 2]
+[EL Fine]: sql: 2016-05-30 15:59:57.946--ClientSession(298885940)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE (questionId = ?)
+	bind => [1B908BB2-F4DE-4E18-86E1-C7DD8DD89A3A]
+[EL Fine]: sql: 2016-05-30 15:59:57.948--ClientSession(298885940)--Connection(168153172)--Thread(Thread[Test worker,5,main])--UPDATE ast_Question_M SET levelid = ?, question = ?, questionDetails = ?, questionIcon = ?, versionId = ? WHERE ((questionId = ?) AND (versionId = ?))
+	bind => [10, 2sd2URuugEH71nK3r7UdtYou3zD066AaYpwNphrPbqOluJt9S7, Z50dlZXCiO, UKzB96XhwkU8XoqdvoBfdu8r7wT1y1pl07DGquph7dLHVG8Fwp, 2, 1B908BB2-F4DE-4E18-86E1-C7DD8DD89A3A, 1]
+[EL Fine]: sql: 2016-05-30 15:59:58.088--ClientSession(436286640)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE ((activeStatus = ?) AND (questionId = ?))
+	bind => [1, 1B908BB2-F4DE-4E18-86E1-C7DD8DD89A3A]
+[EL Fine]: sql: 2016-05-30 15:59:58.114--ClientSession(952987230)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT questionId, levelid, question, questionDetails, questionIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Question_M WHERE (questionId = ?)
+	bind => [1B908BB2-F4DE-4E18-86E1-C7DD8DD89A3A]
+[EL Fine]: sql: 2016-05-30 15:59:58.115--ClientSession(952987230)--Connection(168153172)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Question_M WHERE ((questionId = ?) AND (versionId = ?))
+	bind => [1B908BB2-F4DE-4E18-86E1-C7DD8DD89A3A, 2]
 ]]></system-out>
   <system-err><![CDATA[Question.levelid may not be null
 java.lang.SecurityException: Question.levelid may not be null

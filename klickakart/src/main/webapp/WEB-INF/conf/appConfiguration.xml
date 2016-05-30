@@ -98,6 +98,15 @@ For Example
 	 	 	 <smtpStarttlsEnable>true</smtpStarttlsEnable>
 	 	 	 <smtpSslEnable>false</smtpSslEnable>
 	 	 </mailConfig>
+
+		 <connectorConfig>
+	 	 	 <serverId>CAD05F10-1641-47CA-9BBA-C02E09226792</serverId>
+	 	 	 <serverName>PayementProcessing</serverName>
+	 	 	 <ipAddress>apps.applifire.com</ipAddress>
+	 	 	 <portNo>8080</portNo>
+	 	 	 <connectorType>2</connectorType>
+	 	 	 <protocol>http</protocol>
+	 	 </connectorConfig>
 	 	 <!-- Scheduler url -->
 	 	 <schedulerConfig>
 	 	 	 <schedulerurl>http://localhost:8080/klickakartScheduler</schedulerurl>

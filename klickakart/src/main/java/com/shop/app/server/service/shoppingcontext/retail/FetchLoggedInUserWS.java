@@ -31,7 +31,7 @@ public class FetchLoggedInUserWS {
         com.spartan.pluggable.logger.alarms.AppAlarm appAlarm = Log.getAlarm("SHPRT247100200");
         com.athena.server.pluggable.utils.bean.ResponseBean responseBean = new com.athena.server.pluggable.utils.bean.ResponseBean(appAlarm);
         org.springframework.http.HttpStatus httpStatus = org.springframework.http.HttpStatus.CREATED;
-        java.util.List<com.shop.app.shared.shoppingcontext.FetchLoggedInUser> _ruleOutput = fetchloggedinuser.fetchLoggedInUser();
+        com.shop.app.shared.shoppingcontext.FetchLoggedInUser _ruleOutput = fetchloggedinuser.fetchLoggedInUser();
         responseBean.add("success", true);
         responseBean.add("message", "Successfully executed ");
         responseBean.add("data", _ruleOutput);
