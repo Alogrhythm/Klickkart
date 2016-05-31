@@ -11,6 +11,7 @@ Ext.define('Klickakart.klickakart.smartdevice.com.shop.view.shoppingcontext.reta
                     "style": "word-break: break-word; word-wrap: break-word;",
                     "value": "<I>Welcome !!<\/i>",
                     "name": "welcomeee",
+                    "flex": 1,
                     "itemId": "welcomeee_displayfield"
                }, {
                     "xtype": "displayfield",
@@ -18,18 +19,17 @@ Ext.define('Klickakart.klickakart.smartdevice.com.shop.view.shoppingcontext.reta
                     "bindable": "welcomeMsg",
                     "style": "word-break: break-word; word-wrap: break-word;",
                     "name": "welcomeMsg",
-                    "itemId": "welcomeMsg_displayfield",
-                    "flex": 1
+                    "flex": 1,
+                    "itemId": "welcomeMsg_displayfield"
                }],
                "layout": {
                     "type": "hbox"
                },
                "autoScroll": true,
                "border": true,
-               "title": "H-Box",
                "margin": 5,
-               "itemId": "panel_ext_18907",
-               "dockedItems": []
+               "dockedItems": [],
+               "itemId": "panel_ext_18907"
           }, {
                "xtype": "button",
                "name": "items",

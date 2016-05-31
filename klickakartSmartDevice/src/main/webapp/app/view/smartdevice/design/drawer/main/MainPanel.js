@@ -61,8 +61,12 @@ Ext.define('Klickakart.view.smartdevice.design.drawer.main.MainPanel', {
                     background:"#ffffff"
                 },
                 header:{
+
                          titlePosition:1,
-                         style:"box-shadow: 1px 1px 1px 1px #888888;margin:0px 0px 5px 0px;",
+                         style:{
+				"box-shadow": "1px 1px 1px 1px #888888;margin:0px 0px 5px 0px;",
+				"background":"#35baf6"
+			 },
                          tools:[{
                      		xtype:'textfield',
                      		id:"searchTxt",

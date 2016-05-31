@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-30T15:59:48" hostname="7d6391b444da" time="0.302">
+<testsuite name="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-31T08:18:49" hostname="80b5cf2cf483" time="0.204">
   <properties/>
-  <testcase name="test1Save" classname="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" time="0.08"/>
-  <testcase name="test2Update" classname="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" time="0.118"/>
-  <testcase name="test3FindById" classname="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" time="0.013"/>
-  <testcase name="test5NegativeTesting" classname="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" time="0.01"/>
-  <testcase name="test6Delete" classname="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" time="0.081"/>
-  <system-out><![CDATA[Mon May 30 15:59:48 UTC 2016|Log Manager Factory|Initialization Process started.....
-Mon May 30 15:59:48 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
-Mon May 30 15:59:48 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
-Mon May 30 15:59:48 UTC 2016|Alarm Manager|Loading Alarms ......
-Mon May 30 15:59:48 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
-Mon May 30 15:59:48 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
-Mon May 30 15:59:48 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/564 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP= A.Map=[645]  E.Map EC/RC=[237/66] )
-Mon May 30 15:59:48 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
-Mon May 30 15:59:48 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
-Mon May 30 15:59:48 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
-Mon May 30 15:59:48 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
-Mon May 30 15:59:48 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
-Mon May 30 15:59:48 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
-Mon May 30 15:59:48 UTC 2016|Alarm Manager|Initialized Exception Lookup...
-Mon May 30 15:59:48 UTC 2016|Log Manager|Initialize Log Config File ......
-Mon May 30 15:59:48 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
-Mon May 30 15:59:48 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
-Mon May 30 15:59:48 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
-Mon May 30 15:59:48 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
-Mon May 30 15:59:48 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
-Mon May 30 15:59:48 UTC 2016|Log Manager|Loading Default Connector for Logging ......
-Mon May 30 15:59:48 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
-Mon May 30 15:59:48 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
-Mon May 30 15:59:48 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@30ddd1d4] ....
-Mon May 30 15:59:48 UTC 2016|Scheduler|Starting the Scheduler ......
-Mon May 30 15:59:48 UTC 2016|Scheduler|Adding [LMID=[f5459b1b-8311-4caf-b6f8-d0ed61511a9a]] Delay=5 Time Unit=MINUTES
-Mon May 30 15:59:48 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
-Mon May 30 15:59:48 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
-Mon May 30 15:59:48 UTC 2016|Scheduler|Startup Completed..
-Mon May 30 15:59:48 UTC 2016|Log Manager|Initialization Process Complete ......
-Mon May 30 15:59:48 UTC 2016|Log Manager Factory|Log Manager READY! ID = f5459b1b-8311-4caf-b6f8-d0ed61511a9a
+  <testcase name="test1Save" classname="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" time="0.082"/>
+  <testcase name="test2Update" classname="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" time="0.055"/>
+  <testcase name="test3FindById" classname="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" time="0.007"/>
+  <testcase name="test5NegativeTesting" classname="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" time="0.008"/>
+  <testcase name="test6Delete" classname="com.shop.app.server.service.shoppingcontext.retail.ProductTestCase" time="0.049"/>
+  <system-out><![CDATA[Tue May 31 08:18:49 UTC 2016|Log Manager Factory|Initialization Process started.....
+Tue May 31 08:18:49 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
+Tue May 31 08:18:49 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
+Tue May 31 08:18:49 UTC 2016|Alarm Manager|Loading Alarms ......
+Tue May 31 08:18:49 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Tue May 31 08:18:49 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Tue May 31 08:18:49 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/564 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP= A.Map=[645]  E.Map EC/RC=[237/66] )
+Tue May 31 08:18:49 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Tue May 31 08:18:49 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Tue May 31 08:18:49 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
+Tue May 31 08:18:49 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
+Tue May 31 08:18:49 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Tue May 31 08:18:49 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
+Tue May 31 08:18:49 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Tue May 31 08:18:49 UTC 2016|Log Manager|Initialize Log Config File ......
+Tue May 31 08:18:49 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Tue May 31 08:18:49 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Tue May 31 08:18:49 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Tue May 31 08:18:49 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Tue May 31 08:18:49 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Tue May 31 08:18:49 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Tue May 31 08:18:49 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Tue May 31 08:18:49 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Tue May 31 08:18:49 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@47b757d5] ....
+Tue May 31 08:18:49 UTC 2016|Scheduler|Starting the Scheduler ......
+Tue May 31 08:18:49 UTC 2016|Scheduler|Adding [LMID=[cec1f73d-ea8d-42b0-91cc-bf294742eedc]] Delay=5 Time Unit=MINUTES
+Tue May 31 08:18:49 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Tue May 31 08:18:49 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Tue May 31 08:18:49 UTC 2016|Scheduler|Startup Completed..
+Tue May 31 08:18:49 UTC 2016|Log Manager|Initialization Process Complete ......
+Tue May 31 08:18:49 UTC 2016|Log Manager Factory|Log Manager READY! ID = cec1f73d-ea8d-42b0-91cc-bf294742eedc
 Setting logged in user info for ADD
-[EL Fine]: sql: 2016-05-30 15:59:48.48--ClientSession(2030104074)--Connection(168153172)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Product_M (productId, productDesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [EBB5FF3A-EB49-47C2-836C-C3D9248FC154, vhcGySOc3rl8VjGWI6DWba7TU9l7l1YzDbZLm5hGwMmAJ0zKsc, 1, AAAAA, 2016-05-30 15:59:48.478, AAAAA, 2016-05-30 15:59:48.478, 1, 51000]
-[EL Fine]: sql: 2016-05-30 15:59:48.526--ClientSession(1885061792)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE ((activeStatus = ?) AND (productId = ?))
-	bind => [1, EBB5FF3A-EB49-47C2-836C-C3D9248FC154]
+[EL Fine]: sql: 2016-05-31 08:18:49.52--ClientSession(697818289)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Product_M (productId, productDesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [A7B609B2-3CC5-4A02-9DBC-5CE076A8B227, vhcGySOc3rl8VjGWI6DWba7TU9l7l1YzDbZLm5hGwMmAJ0zKsc, 1, AAAAA, 2016-05-31 08:18:49.517, AAAAA, 2016-05-31 08:18:49.517, 1, 51000]
+[EL Fine]: sql: 2016-05-31 08:18:49.575--ClientSession(1847233345)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE ((activeStatus = ?) AND (productId = ?))
+	bind => [1, A7B609B2-3CC5-4A02-9DBC-5CE076A8B227]
 Setting logged in user info for UPDATE
-[EL Fine]: sql: 2016-05-30 15:59:48.529--ClientSession(267484501)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE (productId = ?)
-	bind => [EBB5FF3A-EB49-47C2-836C-C3D9248FC154]
-[EL Fine]: sql: 2016-05-30 15:59:48.531--ClientSession(267484501)--Connection(168153172)--Thread(Thread[Test worker,5,main])--UPDATE ast_Product_M SET productDesc = ?, versionId = ? WHERE ((productId = ?) AND (versionId = ?))
-	bind => [pFywP8JBUVdszzW9kqIdEPNJ44p22OrLcJ3GSkdm4GJYdRrGwS, 2, EBB5FF3A-EB49-47C2-836C-C3D9248FC154, 1]
-[EL Fine]: sql: 2016-05-30 15:59:48.648--ClientSession(1658993261)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE ((activeStatus = ?) AND (productId = ?))
-	bind => [1, EBB5FF3A-EB49-47C2-836C-C3D9248FC154]
-[EL Fine]: sql: 2016-05-30 15:59:48.666--ClientSession(828678242)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE (productId = ?)
-	bind => [EBB5FF3A-EB49-47C2-836C-C3D9248FC154]
-[EL Fine]: sql: 2016-05-30 15:59:48.668--ClientSession(828678242)--Connection(168153172)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Product_M WHERE ((productId = ?) AND (versionId = ?))
-	bind => [EBB5FF3A-EB49-47C2-836C-C3D9248FC154, 2]
+[EL Fine]: sql: 2016-05-31 08:18:49.578--ClientSession(908068351)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE (productId = ?)
+	bind => [A7B609B2-3CC5-4A02-9DBC-5CE076A8B227]
+[EL Fine]: sql: 2016-05-31 08:18:49.58--ClientSession(908068351)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--UPDATE ast_Product_M SET productDesc = ?, versionId = ? WHERE ((productId = ?) AND (versionId = ?))
+	bind => [pFywP8JBUVdszzW9kqIdEPNJ44p22OrLcJ3GSkdm4GJYdRrGwS, 2, A7B609B2-3CC5-4A02-9DBC-5CE076A8B227, 1]
+[EL Fine]: sql: 2016-05-31 08:18:49.63--ClientSession(1667834191)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE ((activeStatus = ?) AND (productId = ?))
+	bind => [1, A7B609B2-3CC5-4A02-9DBC-5CE076A8B227]
+[EL Fine]: sql: 2016-05-31 08:18:49.646--ClientSession(1410930265)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--SELECT productId, productDesc, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Product_M WHERE (productId = ?)
+	bind => [A7B609B2-3CC5-4A02-9DBC-5CE076A8B227]
+[EL Fine]: sql: 2016-05-31 08:18:49.648--ClientSession(1410930265)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Product_M WHERE ((productId = ?) AND (versionId = ?))
+	bind => [A7B609B2-3CC5-4A02-9DBC-5CE076A8B227, 2]
 ]]></system-out>
   <system-err><![CDATA[Product.productDesc may not be null
 java.lang.SecurityException: Product.productDesc may not be null

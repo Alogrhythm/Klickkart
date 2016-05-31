@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.451s</div>
+<div class="counter">0.465s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,7 +82,7 @@
 </thead>
 <tr>
 <td class="success">test1Save</td>
-<td>0.152s</td>
+<td>0.178s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -92,17 +92,17 @@
 </tr>
 <tr>
 <td class="success">test3FindById</td>
-<td>0.008s</td>
+<td>0.012s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test5NegativeTesting</td>
-<td>0.017s</td>
+<td>0.026s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test6Delete</td>
-<td>0.219s</td>
+<td>0.194s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -110,59 +110,59 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>Mon May 30 15:59:39 UTC 2016|Log Manager Factory|Initialization Process started.....
-Mon May 30 15:59:39 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
-Mon May 30 15:59:39 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
-Mon May 30 15:59:39 UTC 2016|Alarm Manager|Loading Alarms ......
-Mon May 30 15:59:39 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
-Mon May 30 15:59:39 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
-Mon May 30 15:59:39 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/564 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP= A.Map=[645]  E.Map EC/RC=[237/66] )
-Mon May 30 15:59:39 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
-Mon May 30 15:59:39 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
-Mon May 30 15:59:39 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
-Mon May 30 15:59:39 UTC 2016|ApplicationAlarmContext| &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; Create App Alarms ....  &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; 
-Mon May 30 15:59:39 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
-Mon May 30 15:59:39 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
-Mon May 30 15:59:39 UTC 2016|Alarm Manager|Initialized Exception Lookup...
-Mon May 30 15:59:39 UTC 2016|Log Manager|Initialize Log Config File ......
-Mon May 30 15:59:39 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
-Mon May 30 15:59:39 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
-Mon May 30 15:59:39 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
-Mon May 30 15:59:39 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
-Mon May 30 15:59:39 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
-Mon May 30 15:59:39 UTC 2016|Log Manager|Loading Default Connector for Logging ......
-Mon May 30 15:59:39 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
-Mon May 30 15:59:39 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
-Mon May 30 15:59:39 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@2ca52213] ....
-Mon May 30 15:59:39 UTC 2016|Scheduler|Starting the Scheduler ......
-Mon May 30 15:59:39 UTC 2016|Scheduler|Adding [LMID=[f5459b1b-8311-4caf-b6f8-d0ed61511a9a]] Delay=5 Time Unit=MINUTES
-Mon May 30 15:59:39 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
-Mon May 30 15:59:39 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
-Mon May 30 15:59:39 UTC 2016|Scheduler|Startup Completed..
-Mon May 30 15:59:39 UTC 2016|Log Manager|Initialization Process Complete ......
-Mon May 30 15:59:39 UTC 2016|Log Manager Factory|Log Manager READY! ID = f5459b1b-8311-4caf-b6f8-d0ed61511a9a
-[EL Fine]: sql: 2016-05-30 15:59:39.613--ClientSession(1595586887)--Connection(168153172)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_CommunicationGroup_M (commGroupId, commGroupDescription, commGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [3F2CF10F-20C7-40FB-B849-4E030F3B397F, uYnLS8DpFqjAP1mQYFiZPr02eyIJypYeJvCQtCI8PzU06wbMtb, M3P7ms9LqU8TNicRkGGvtab4jo2A7fPEmkevBB11Mk9bM7LKQw, 1, AAAAA, 2016-05-30 15:59:39.609, AAAAA, 2016-05-30 15:59:39.609, 1, 51000]
+<pre>Tue May 31 08:18:41 UTC 2016|Log Manager Factory|Initialization Process started.....
+Tue May 31 08:18:41 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
+Tue May 31 08:18:41 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/klickakart/src/main/webapp/WEB-INF/conf]
+Tue May 31 08:18:41 UTC 2016|Alarm Manager|Loading Alarms ......
+Tue May 31 08:18:41 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Tue May 31 08:18:41 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Tue May 31 08:18:41 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/564 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP= A.Map=[645]  E.Map EC/RC=[237/66] )
+Tue May 31 08:18:41 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Tue May 31 08:18:41 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Tue May 31 08:18:41 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
+Tue May 31 08:18:41 UTC 2016|ApplicationAlarmContext| &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; Create App Alarms ....  &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt; 
+Tue May 31 08:18:41 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Tue May 31 08:18:41 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/648 SYS=4/10 [564/0]  TPL=0/0 [0/0]  APP=1/1 [84/0]  A.Map=[729]  E.Map EC/RC=[289/78] )
+Tue May 31 08:18:41 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Tue May 31 08:18:41 UTC 2016|Log Manager|Initialize Log Config File ......
+Tue May 31 08:18:41 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Tue May 31 08:18:41 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Tue May 31 08:18:41 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Tue May 31 08:18:41 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Tue May 31 08:18:41 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Tue May 31 08:18:41 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Tue May 31 08:18:41 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Tue May 31 08:18:41 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Tue May 31 08:18:41 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@67769975] ....
+Tue May 31 08:18:41 UTC 2016|Scheduler|Starting the Scheduler ......
+Tue May 31 08:18:41 UTC 2016|Scheduler|Adding [LMID=[cec1f73d-ea8d-42b0-91cc-bf294742eedc]] Delay=5 Time Unit=MINUTES
+Tue May 31 08:18:41 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Tue May 31 08:18:41 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Tue May 31 08:18:41 UTC 2016|Scheduler|Startup Completed..
+Tue May 31 08:18:41 UTC 2016|Log Manager|Initialization Process Complete ......
+Tue May 31 08:18:41 UTC 2016|Log Manager Factory|Log Manager READY! ID = cec1f73d-ea8d-42b0-91cc-bf294742eedc
+[EL Fine]: sql: 2016-05-31 08:18:41.304--ClientSession(1232708495)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_CommunicationGroup_M (commGroupId, commGroupDescription, commGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [43E0E934-00AB-4F1A-B910-8138EB257A45, uYnLS8DpFqjAP1mQYFiZPr02eyIJypYeJvCQtCI8PzU06wbMtb, M3P7ms9LqU8TNicRkGGvtab4jo2A7fPEmkevBB11Mk9bM7LKQw, 1, AAAAA, 2016-05-31 08:18:41.3, AAAAA, 2016-05-31 08:18:41.3, 1, 51000]
 Setting logged in user info for ADD
-[EL Fine]: sql: 2016-05-30 15:59:39.699--ClientSession(353779411)--Connection(168153172)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_CommunicationType_M (commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind =&gt; [07FB749F-FD64-4176-BC69-DF54D342419C, 3F2CF10F-20C7-40FB-B849-4E030F3B397F, CdRQQanoGuchdDiHNPKTE40u2FutDz0W0UpshbQuLWLG1Yoon4, hR0yyCCKIKmSfNFOyAKL5q8eVAg5EGbo1y7wSspyn8Iyj2mE7h, 1, AAAAA, 2016-05-30 15:59:39.695, AAAAA, 2016-05-30 15:59:39.695, 1, 51000]
-[EL Fine]: sql: 2016-05-30 15:59:39.747--ClientSession(198101979)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commType = ?))
-	bind =&gt; [1, 07FB749F-FD64-4176-BC69-DF54D342419C]
+[EL Fine]: sql: 2016-05-31 08:18:41.413--ClientSession(623303497)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_CommunicationType_M (commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind =&gt; [2731CA49-FB2B-4CF0-9A67-73ED590651F7, 43E0E934-00AB-4F1A-B910-8138EB257A45, CdRQQanoGuchdDiHNPKTE40u2FutDz0W0UpshbQuLWLG1Yoon4, hR0yyCCKIKmSfNFOyAKL5q8eVAg5EGbo1y7wSspyn8Iyj2mE7h, 1, AAAAA, 2016-05-31 08:18:41.409, AAAAA, 2016-05-31 08:18:41.409, 1, 51000]
+[EL Fine]: sql: 2016-05-31 08:18:41.461--ClientSession(1975806675)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commType = ?))
+	bind =&gt; [1, 2731CA49-FB2B-4CF0-9A67-73ED590651F7]
 Setting logged in user info for UPDATE
-[EL Fine]: sql: 2016-05-30 15:59:39.753--ClientSession(416864207)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE (commType = ?)
-	bind =&gt; [07FB749F-FD64-4176-BC69-DF54D342419C]
-[EL Fine]: sql: 2016-05-30 15:59:39.755--ClientSession(416864207)--Connection(168153172)--Thread(Thread[Test worker,5,main])--UPDATE ast_CommunicationType_M SET commTypeDescription = ?, commTypeName = ?, versionId = ? WHERE ((commType = ?) AND (versionId = ?))
-	bind =&gt; [2ktUnn9oeKziosvEqpmhqHRZTaQOqKzvL1sMSro3RVQhYAFcZN, WVEveTp3btpGs3eXlnTFOsQakfZ2p5J4MUFL9BOJWK99J7pTmo, 2, 07FB749F-FD64-4176-BC69-DF54D342419C, 1]
-[EL Fine]: sql: 2016-05-30 15:59:39.802--ClientSession(623303497)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commType = ?))
-	bind =&gt; [1, 07FB749F-FD64-4176-BC69-DF54D342419C]
-[EL Fine]: sql: 2016-05-30 15:59:39.828--ClientSession(1608456868)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE (commType = ?)
-	bind =&gt; [07FB749F-FD64-4176-BC69-DF54D342419C]
-[EL Fine]: sql: 2016-05-30 15:59:39.83--ClientSession(1608456868)--Connection(168153172)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_CommunicationType_M WHERE ((commType = ?) AND (versionId = ?))
-	bind =&gt; [07FB749F-FD64-4176-BC69-DF54D342419C, 2]
-[EL Fine]: sql: 2016-05-30 15:59:39.918--ClientSession(9330563)--Connection(168153172)--Thread(Thread[Test worker,5,main])--SELECT commGroupId, commGroupDescription, commGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationGroup_M WHERE (commGroupId = ?)
-	bind =&gt; [3F2CF10F-20C7-40FB-B849-4E030F3B397F]
-[EL Fine]: sql: 2016-05-30 15:59:39.92--ClientSession(9330563)--Connection(168153172)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_CommunicationGroup_M WHERE ((commGroupId = ?) AND (versionId = ?))
-	bind =&gt; [3F2CF10F-20C7-40FB-B849-4E030F3B397F, 1]
+[EL Fine]: sql: 2016-05-31 08:18:41.466--ClientSession(130975306)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE (commType = ?)
+	bind =&gt; [2731CA49-FB2B-4CF0-9A67-73ED590651F7]
+[EL Fine]: sql: 2016-05-31 08:18:41.468--ClientSession(130975306)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--UPDATE ast_CommunicationType_M SET commTypeDescription = ?, commTypeName = ?, versionId = ? WHERE ((commType = ?) AND (versionId = ?))
+	bind =&gt; [2ktUnn9oeKziosvEqpmhqHRZTaQOqKzvL1sMSro3RVQhYAFcZN, WVEveTp3btpGs3eXlnTFOsQakfZ2p5J4MUFL9BOJWK99J7pTmo, 2, 2731CA49-FB2B-4CF0-9A67-73ED590651F7, 1]
+[EL Fine]: sql: 2016-05-31 08:18:41.519--ClientSession(632756090)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE ((activeStatus = ?) AND (commType = ?))
+	bind =&gt; [1, 2731CA49-FB2B-4CF0-9A67-73ED590651F7]
+[EL Fine]: sql: 2016-05-31 08:18:41.556--ClientSession(171229770)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--SELECT commType, commGroupId, commTypeDescription, commTypeName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationType_M WHERE (commType = ?)
+	bind =&gt; [2731CA49-FB2B-4CF0-9A67-73ED590651F7]
+[EL Fine]: sql: 2016-05-31 08:18:41.558--ClientSession(171229770)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_CommunicationType_M WHERE ((commType = ?) AND (versionId = ?))
+	bind =&gt; [2731CA49-FB2B-4CF0-9A67-73ED590651F7, 2]
+[EL Fine]: sql: 2016-05-31 08:18:41.643--ClientSession(1983051435)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--SELECT commGroupId, commGroupDescription, commGroupName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_CommunicationGroup_M WHERE (commGroupId = ?)
+	bind =&gt; [43E0E934-00AB-4F1A-B910-8138EB257A45]
+[EL Fine]: sql: 2016-05-31 08:18:41.646--ClientSession(1983051435)--Connection(2132324337)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_CommunicationGroup_M WHERE ((commGroupId = ?) AND (versionId = ?))
+	bind =&gt; [43E0E934-00AB-4F1A-B910-8138EB257A45, 1]
 </pre>
 </span>
 </div>
@@ -348,7 +348,7 @@ java.lang.SecurityException: CommunicationType.commTypeDescription size must be 
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.3</a> at May 30, 2016 4:00:06 PM</p>
+<a href="http://www.gradle.org">Gradle 2.3</a> at May 31, 2016 8:19:02 AM</p>
 </div>
 </div>
 </body>
